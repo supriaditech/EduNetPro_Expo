@@ -48,4 +48,10 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# EduNetPro_Expo" 
+  "# EduNetPro_Expo"
+
+#043259
+#0568A6
+#079DD9
+#F2F2F2
+#0D0D0D
