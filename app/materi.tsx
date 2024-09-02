@@ -40,16 +40,25 @@ export default function Materi() {
           <Text style={styles.materiTitle}>{materi.judul}</Text>
           {materi.subBab.map((subBab: any) => (
             <View key={subBab.id} style={styles.subBabContainer}>
-              <Text style={styles.subBabTitle}>{subBab.judul}</Text>
+              <Text style={styles.subBabTitle}>{subBab.judulSubBab}</Text>
               {subBab.konten.map((konten: any, index: number) => {
                 if (konten.tipe === "paragraf") {
                   return (
                     <View key={index}>
                       {konten.isi.map((paragraf: any) => (
-                        <Text key={paragraf.id} style={styles.paragrafText}>
-                          {"\t"} {"\t"} {"\t"}
-                          {paragraf.teks}
-                        </Text>
+                        <View key={paragraf.id}>
+                          {paragraf.teks && (
+                            <Text style={styles.paragrafText}>
+                              {paragraf.teks}
+                            </Text>
+                          )}
+                          {paragraf.gambar && (
+                            <Image
+                              source={images[paragraf.gambar]}
+                              style={styles.imageStyle}
+                            />
+                          )}
+                        </View>
                       ))}
                     </View>
                   );
@@ -62,28 +71,20 @@ export default function Materi() {
                             • {item.judul}
                           </Text>
                           {item.isi.map((poinIsi: any) => (
-                            <Text key={poinIsi.id} style={styles.paragrafText}>
-                              {poinIsi.teks}
-                            </Text>
-                          ))}
-                          {item.gambar && (
-                            <View
-                              style={{
-                                width: "100%",
-                                aspectRatio: 16 / 9,
-                                borderRadius: 10,
-                                overflow: "hidden",
-                                backgroundColor: "green",
-                              }}
-                            >
-                              <Image
-                                source={images[item.gambar]}
-                                alt="gambar"
-                                resizeMode="cover"
-                                style={{ width: "100%", height: "100%" }}
-                              />
+                            <View key={poinIsi.id}>
+                              {poinIsi.teks && (
+                                <Text style={styles.paragrafText}>
+                                  {poinIsi.teks}
+                                </Text>
+                              )}
+                              {poinIsi.gambar && (
+                                <Image
+                                  source={images[poinIsi.gambar]}
+                                  style={styles.imageStyle}
+                                />
+                              )}
                             </View>
-                          )}
+                          ))}
                         </View>
                       ))}
                     </View>
@@ -94,22 +95,23 @@ export default function Materi() {
                       {konten.items.map((item: any, itemIndex: number) => (
                         <View key={itemIndex} style={styles.numberingItem}>
                           <Text style={styles.numberingTitle}>
-                            {itemIndex + 1}. {item.judul}
+                            {index}. {item.judul}
                           </Text>
                           {item.isi.map((numberIsi: any) => (
-                            <Text
-                              key={numberIsi.id}
-                              style={styles.paragrafText}
-                            >
-                              {numberIsi.teks}
-                            </Text>
+                            <View key={numberIsi.id}>
+                              {numberIsi.teks && (
+                                <Text style={styles.paragrafText}>
+                                  {numberIsi.teks}
+                                </Text>
+                              )}
+                              {numberIsi.gambar && (
+                                <Image
+                                  source={images[numberIsi.gambar]}
+                                  style={styles.imageStyle}
+                                />
+                              )}
+                            </View>
                           ))}
-                          {item.gambar && (
-                            <Image
-                              source={images[item.gambar]}
-                              style={styles.imageStyle}
-                            />
-                          )}
                         </View>
                       ))}
                     </View>
