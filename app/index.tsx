@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import React from "react";
 import {
   SafeAreaView,
@@ -6,8 +7,7 @@ import {
   View,
   StatusBar,
   Image,
-  Button,
-  Pressable,
+  TouchableOpacity,
 } from "react-native";
 
 export default function Index() {
@@ -40,26 +40,28 @@ export default function Index() {
             Selamat Datang di Aplikasi {"\n"} Edu Net Pro!
           </Text>
         </View>
-        <Pressable
+        <TouchableOpacity
           style={{
             alignItems: "center",
             justifyContent: "center",
             paddingHorizontal: 32,
             paddingVertical: 8,
-            backgroundColor: "#043259 ",
+            backgroundColor: "#043259",
             borderRadius: 8,
           }}
         >
-          <Text
-            style={{
-              color: "#FFFFFF",
-              fontFamily: "Poppins-Bold",
-              fontSize: 18,
-            }}
-          >
-            Mari Mulai Belajar
-          </Text>
-        </Pressable>
+          <Link href={"/list-materi"}>
+            <Text
+              style={{
+                color: "#FFFFFF",
+                fontFamily: "Poppins-Bold",
+                fontSize: 18,
+              }}
+            >
+              Mari Mulai Belajar
+            </Text>
+          </Link>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );

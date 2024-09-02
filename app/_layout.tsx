@@ -50,6 +50,9 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="list-materi" options={{ headerShown: false }} />
+        <Stack.Screen name="materi" options={{ headerShown: false }} />
+        <Stack.Screen name="soal" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>
