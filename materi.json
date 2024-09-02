@@ -1,0 +1,297 @@
+{
+    "materi": [
+        {
+            "id": 1,
+            "judul": "KOMPUTER DAN JARINGAN DASAR",
+            "desc": "Materi mengenai dasar-dasar komputer dan jaringan.",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judul": "Menerapkan K3LH",
+                    "konten": [
+                        {
+                            "tipe": "paragraf",
+                            "isi": "Bagi perusahaan /sekolah maupun pekerja/siswa dimanapun berada didalam lingkungan kegiatan suatu pekerjaan, hendaklah menerapkan K3 merupakan hal yang sangat penting dengan berpedoman sebagai berikut: Pengusaha menyediakan alat-alat pelindungan keselamatan kerja sesuai dengan kegitan suatu pekerjaan misalnya pakaian kerja /jas lab, sarung tangan, masker, dan sebagainya. Untuk mencegah terjadinya kecelakaan kerja, semua pekerja harus mentaati seluruh peraturan dan tata cara pemakaian alat kerja dengan berpedoman pada UU no 1 tahun 1970."
+                        },
+                        {
+                            "tipe": "paragraf",
+                            "isi": "Alat-alat pemadaman kebakaran harus ditempatkan ditempat yang mudah terlihat dan terjangkau, diberi cat berwarna merah. Semua pekerja/siswa wajib mengetahui tempat alat-alat pemadam kebakaran dan mengetahui cara penggunaannya. Benda-benda yang mudah terbakar harus diperhatikan keamanannya serta dilakukan tindakan pencegahan terhadap bahaya kebakaran."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judul": "Melaksanakan K3LH",
+                    "konten": [
+                        {
+                            "tipe": "paragraf",
+                            "isi": "Menjaga/memelihara area dan tempat kerja membutuhkan perhatian dan kewaspadaan yang terus menerus, satu upaya penyelamatan tergantung pada unjuk kerja setiap pekerja/siswa yang bekerja ditempat tersebut. Kecelakaan sangat mudah terjadi, maka dari itu setiap bekerja dan selesai bekerja dimana tempat kerja perlu dirapihkan."
+                        },
+                        {
+                            "tipe": "paragraf",
+                            "isi": "Kesehatan kerja: Tempat kerja pekerja dipelihara kebersihan dan kerapihannya, untuk kesehatan bersama, misalnya dilarang meludah dilantai, dilarang membuang sampah disembarang tempat, membersihkan meja kerja dan peralatan yang dipakai. Setiap pekerja harus mematuhi dan melaksanakan instruksi-instruksi tentang pemakaian alat-alat pelindung K3 yang disediakan. Setiap pekerja yang mengetahui pekerja lain menderita penyakit menular seperti lepra, syphilis, kolera, TBC, demam berdarah, muntaber dan sebagainya, harus segera melapor kepada pimpinan untuk segera diambil langkah-langkan pencegahan."
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Berikut merupakan kepanjangan dari K3LH, kecuali...........",
+                    "pilihan": {
+                        "A": "Kesehatan",
+                        "B": "Keselamatan",
+                        "C": "Keamanan",
+                        "D": "Kebaikan",
+                        "E": "Lingkungan Hidup"
+                    },
+                    "jawaban": "D"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Dibawah ini yang bukan termasuk tujuan K3LH adalah…",
+                    "pilihan": {
+                        "A": "Menjamin tenaga kerja dalam meningkatkan produktivitas",
+                        "B": "Mencegah dan mengurangi kerugian yang diderita oleh semua pihak yang bekerja",
+                        "C": "Memberi pertolongan dini bagi pekerja bila terjadi kecelakaan",
+                        "D": "Mencegah kecelakaan di jalan raya",
+                        "E": "Melindungi tenaga kerja dari bahaya kecelakaan pada saat bekerja"
+                    },
+                    "jawaban": "D"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Di bawah ini merupakan hal yang harus terkandung dalam prosedur kerja adalah..........",
+                    "pilihan": {
+                        "A": "Tujuan dan ruang lingkup aktivitas",
+                        "B": "Pencatatan & evaluasi terhadap kegiatan",
+                        "C": "Siapa yang melaksanakan & apa yang harus dikerjakan",
+                        "D": "Material,perlengkapan & dokumen yang digunakan",
+                        "E": "Benar semua"
+                    },
+                    "jawaban": "E"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Pihak yang bertanggungjawab terhadap K3 di perusahaan/instansi, kecuali..........",
+                    "pilihan": {
+                        "A": "Bagian keamanan",
+                        "B": "Pimpinan",
+                        "C": "Orang tua",
+                        "D": "Instruktur",
+                        "E": "Pekerja/karyawan"
+                    },
+                    "jawaban": "C"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Suatu kondisi dimana atau kapan munculnya sumber bahaya telah dapat dikendalikan ke tingkat yang memadai, ini adalah lawan dari bahaya (danger) merupakan pengertian dari....",
+                    "pilihan": {
+                        "A": "Keamanan",
+                        "B": "Alat pelindung diri",
+                        "C": "Kesehatan",
+                        "D": "Kepedulian",
+                        "E": "Kebersihan"
+                    },
+                    "jawaban": "A"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Alat yang digunakan untuk melindungi mata pemakai/karyawan dari partikel kecil, merupakan fungsi penggunaan dari alat..........",
+                    "pilihan": {
+                        "A": "Ear plug",
+                        "B": "Safety shoes",
+                        "C": "Safety glasses",
+                        "D": "Respirator",
+                        "E": "Disposable overall"
+                    },
+                    "jawaban": "C"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Fungsi safety shoes bagi karyawan, kecuali.........",
+                    "pilihan": {
+                        "A": "Melindungi kaki dari beram",
+                        "B": "Melindungi kaki dari benda panas",
+                        "C": "Melindungi kaki dari bahan kimia yang berbahaya",
+                        "D": "Melindungi kaki dari udara",
+                        "E": "Melindungi kaki dari kejatuhan benda berat"
+                    },
+                    "jawaban": "D"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Cara kerja yang digunakan untuk meninjau kembali metode kerja dan mencegah bahaya yang mungkin tidak dilihat/terlupakan dalam tata ruang gedung dan dalam desain mesin, alat dan pengolahan yang telah dikembangkan setelah mulainya produksi merupakan pengertian dari.......",
+                    "pilihan": {
+                        "A": "Pemeriksaan kesehatan kerja",
+                        "B": "Job safety analysis",
+                        "C": "Alat pelindung diri",
+                        "D": "Body protector",
+                        "E": "Isolasi"
+                    },
+                    "jawaban": "B"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Usaha yang mengutamakan tindakan pencegahan terhadap gangguan kesehatan karena faktor pekerjaan & lingkungan kerja adalah pengertian dari.........",
+                    "pilihan": {
+                        "A": "Pemeriksaan kesehatan kerja",
+                        "B": "Job safety analysis",
+                        "C": "Alat pelindung diri",
+                        "D": "Body protector",
+                        "E": "Isolasi"
+                    },
+                    "jawaban": "A"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Faktor penyebab gangguan kesehatan, kecuali.........",
+                    "pilihan": {
+                        "A": "Golongan fisik",
+                        "B": "Golongan pribadi",
+                        "C": "Golongan kimia",
+                        "D": "Golongan biologik",
+                        "E": "Golongan psikologik"
+                    },
+                    "jawaban": "B"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "judul": "ANATOMI KOMPUTER",
+            "desc": "Evaluasi anatomi komputer.",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judul": "Mengevaluasi Anatomi Komputer",
+                    "konten": [
+                        {
+                            "tipe": "poin",
+                            "judul": "Perangkat Masukan",
+                            "gambar": [
+                                "image1.png",
+                                "image2.png"
+                            ]
+                        },
+                        {
+                            "tipe": "poin",
+                            "judul": "Proses",
+                            "subPoin": [
+                                {
+                                    "judul": "Motherboard",
+                                    "isi": "Mainboard merupakan tempat bersatunya semua komponen-komponen CPU yang membentuk sebuah benda yang dinamakan komputer. Didalam mobo ini garis besarnya terdapat:",
+                                    "gambar": "mobo.png"
+                                },
+                                {
+                                    "judul": "Microprosesor",
+                                    "isi": "Mikroprosesor adalah CPU yang diproduksi dalam sirkuit terpadu, seringkali dalam sebuah paket sirkuit terpadu-tunggal. Saat ini ada dua tipe mikroprosesor yang digunakan oleh personal komputer : 1. Tipe Intel, dibuat oleh Intel, AMD, dan beberapa perusahaan lain. 2. Tipe Motorola, dibuat oleh Motorola digunakan oleh computer Apple Mc Intosh.",
+                                    "gambar": "microprocessor.png"
+                                },
+                                {
+                                    "judul": "RAM",
+                                    "isi": "RAM (Random Access Memory) adalah sebuah memori khusus yang bersifat sementara (jangka pendek). Fungsi RAM adalah menyimpan data/instruksi yang segera akan dijalankan. Data/instruksi yang tersimpan dalam RAM akan diakses oleh CPU secara cepat dan acak. Data yang tersimpan dalam RAM bersifat “mudah hilang”. Hal ini disebabkan kerja RAM sangat tergantung pada suplai aliran listrik, sehingga apabila aliran listrik terputus, maka data yang tersimpan di dalam- nya akan hilang.",
+                                    "gambar": "ram.png"
+                                }
+                            ]
+                        },
+                        {
+                            "tipe": "poin",
+                            "judul": "Perangkat Keluaran",
+                            "gambar": [
+                                "output1.png",
+                                "output2.png"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judul": "Melakukan Perakitan Komputer",
+                    "konten": [
+                        {
+                            "tipe": "paragraf",
+                            "isi": "CPU (Central Processing Unit) adalah perangkat keras komputer yang berfungsi untuk menerima dan melaksanakan perintah dan data dari perangkat lunak. CPU mempunyai dua komponen utama :"
+                        },
+                        {
+                            "tipe": "numbering",
+                            "items": [
+                                {
+                                    "number": 1,
+                                    "judul": "Control Unit",
+                                    "isi": "Control Unit berperan sebagai polisi Lalu-lintas, yang mengatur apa yang harus dikerjakan sekarang dan nanti terhadap data yang sedang diolah."
+                                },
+                                {
+                                    "number": 2,
+                                    "judul": "Arithmetic Logic Unit (ALU)",
+                                    "isi": "Arithmetic Logic Unit (ALU) merupakan kalkulator bagi komputer. ALU menjalankan operasi aritmatika dan operasi logika disamping mengendalikan kecepatan operasinya. Operasi aritmatika meliputi penjumlahan, pengurangan, perkalian dan pembagian dan Operasi logika didasarkan pada perbandingan. Dengan menggunakan ALU, komputer dapat mengetahui enam hubungan logika yaitu = , < , > , ≤ , ≥ , < atau >."
+                                }
+                            ]
+                        },
+                        {
+                            "tipe": "gambar",
+                            "gambar": "cpu_diagram.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "judul": "SISTEM OPERASI",
+            "desc": "Memahami dan menerapkan sistem operasi.",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judul": "Menerapkan Sistem Operasi",
+                    "konten": [
+                        {
+                            "tipe": "paragraf",
+                            "isi": "Sistem operasi atau operating system (OS) adalah perangkat lunak sistem yang bertugas untuk melakukan kontrol dan manajemen perangkat keras serta operasi-operasi dasar sistem, termasuk menjalankan software aplikasi seperti program-program pengolah kata dan multimedia. Sistem Operasi adalah penghubung antara lapisan hardware dan lapisan software. Lebih jauh daripada itu, Sistem Operasi melakukan semua tugas-tugas penting dalam komputer, dan menjamin aplikasi-aplikasi yang berbeda dapat berjalan secara bersamaan dengan lancar."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judul": "Macam – Macam Software",
+                    "konten": [
+                        {
+                            "tipe": "numbering",
+                            "items": [
+                                {
+                                    "number": 1,
+                                    "judul": "Sistem Operasi",
+                                    "isi": "Sistem operasi merupakan sofware yang pertama kali dibaca oleh komputer pada saat booting sebagai dasar pengoperasian komputer. Terdapat 2 jenis sistem operasi berdasarkan tampilan antarmuka kepada penggunanya (user interface) yaitu yang berbasis CUI (Character User Interface) dan berbasis GUI (Graphical User Interface). Sistem operasi berbasis CUI, misalnya : DOS (Disk Operating Sistem) dan Sistem Operasi UNIX dan Linux pada mode terminal atau konsol. Sedangkan sistem operasi berbasis GUI, misalnya : Microsoft Windows 9x, 2000, NT, XP, serta sistem operasi UNIX dan Linux yang telah mendukung GUI."
+                                },
+                                {
+                                    "number": 2,
+                                    "judul": "Program bantuan atau Utility",
+                                    "isi": "Program bantu (utility) merupakan program yang digunakan untuk mengisi kekurangan atau menampilkan kembali file suatu sistem operasi yang terhapus. PC Tools dan Norton Utilities merupakan contoh dari program ini. Salah satu dari kelemahan DOS adalah tidak mampu bekerja di sistem jaringan. Oleh karena itu beberapa perusahaan membuat program tambahan yang dapat mengubah sistem DOS tersebut (single user atau stand alone system) menjadi sistem operasi yang dapat digunakan oleh banyak pemakai (multiuser). Netware, Token Ring dan Lantastic merukan contoh-contoh program ini."
+                                },
+                                {
+                                    "number": 3,
+                                    "judul": "Bahasa Komputer (Computer Language)",
+                                    "isi": "Computer Language merupakan bahasa yang digunakan untuk membuat program komputer. Disebut bahasa karena computer language memiliki kosa kata dan tata bahasa yang harus ditaati oleh pemakainya."
+                                }
+                            ]
+                        },
+                        {
+                            "tipe": "poin",
+                            "judul": "Yang termasuk dalam jenis ini adalah",
+                            "subPoin": [
+                                {
+                                    "judul": "Low Level Language",
+                                    "isi": "Low Level Language, merupakan bahasa tingkat rendah karena sulit dipahami dan hanya dapat dimengerti oleh pembuatnya. Yang termasuk program ini adalah bahasa mesin assembly language."
+                                },
+                                {
+                                    "judul": "High Level Language",
+                                    "isi": "High Level Language, merupakan bahasa tingkat tinggi karena menggunakan kata-kata yang mudah dimengerti. Contoh dari program ini adalah BASIC, PASCAL, FORTRAN, dsb."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
