@@ -5,6 +5,13 @@ export const images = {
   oscomputer: require("../images/os-computer.png"),
   keyboard: require("../images/keyboard.png"),
   mouse: require("../images/mouse.png"),
+  cpu: require("../images/cpu.jpg"),
+  mobo: require("../images/mobo.jpg"),
+  rom: require("../images/rom.jpg"),
+  ram: require("../images/ram.jpg"),
+  monitor: require("../images/monitor.jpg"),
+  printer: require("../images/printer.jpg"),
+  cpunew: require("../images/cpunew.jpg"),
 
   // Tambahkan gambar lainnya di sini
 };
