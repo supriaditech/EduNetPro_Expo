@@ -1,0 +1,198 @@
+{
+    "materi": [
+        {
+            "id": 1,
+            "judul": "KESEHATAN  DAN KESELAMATAN KERJA DAN LINGKUNGAN HIDUP (K3LH)",
+            "desc": "Materi mengenai dasar-dasar komputer dan jaringan.",
+            "image": "k3lh",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Menerapkan K3LH",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "Bagi perusahaan /sekolah maupun pekerja/siswa dimanapun berada didalam lingkungan kegiatan suatu pekerjaan ,hendaklah menerapkan K3 merupakan hal yang sangat penting dengan berpedoman sebagai berikut :"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "Pengusaha menyediakan alat-alat pelindungan keselamatan kerja sesuai dengan kegitan suatu pekerjaan misalnya pakaian kerja /jas lab, sarung tangan, masker, dan sebagainya Untuk mencegah terjadinya kecelakaan kerja ,semua pekerja harus mentaati seluruh peraturan dan tata cara pemakaian alat kerja dengan berpedoman pada UU no 1 tahun 1970. Alat-alat pemadaman kebakaran harus ditempatkan ditempat yang mudah terlihat dan terjangkau, diberi cat berwarna merah. Semua pekerja/siswa wajib mengetahui tempat alat-alat pemadam kebakaran dan mengetahui cara penggunaannya. Benda benda yang mudah terbakar harus diperhatikan keamanannya serta dilakukan tindakan pencegahan terhadap bahaya kebakaran."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "Kelengkapan alat P3K harus ditempatkan ditempat yang mudah terjangkau, dan harus tetap diperiksa serta dilengkapai isi kebutuhan sesuai ketentuan P 3 K segera memberi pertolongan pertama pada setiap kecelakaan sesuai dengan tata cara yang semestinya dilakukan. Tempat kerja harus memperoleh penerangan yang cukup,dan sebelum meninggalkan laboratorium /bengkel,periksa dan matikan semua instalasi yang berkaitan dengan mesin kecuali untuk penerangan."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Melaksanakan K3LH",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "Menjaga/memelihara area dan tempat kerja membutuhkan perhatian dan kewaspadaan yang terus menerus, satu upaya penyelamatan tergantung pada unjuk kerja setiap pekerja/siswa yang bekerja ditempat trersebut.Kecelakaan sangat mudah terjadi, maka dari itu setiap bekerja dan selesai bekerja dimana tempat kerja perlu dirapihkan, seperti uraian tugas berikut :"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "numbering",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "judul": "Kesehatan kerja",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "teks": "Tempat kerja pekerja dipelihara kebersihan dan kerapihannya, untuk kesehatan bersama, misalnya dilarang meludah dilantai, dilarang membuang sampah disembarang tempat, membersihkan meja kerja dan peralatan yang dipakai, Setiap pekerja harus mematuhi dan melaksanakan instruksi-instruksi tentang pemakaian alat-alat pelindung K3 yang disediakan. Setiap pekerja yang mengetahui pekerja lain menderita penyakit menular seperti lepra, syphilis, kolera, TBC, demam berdarah, muntaber dan sebagainya, harus segera melapor kepada pimpinan untuk segera diambil langkah-langkan pencegahan."
+                                        },
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "judul": "Menyelenggarakan penyegaran udara",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "teks": "Agar sirkulasi udara di tempat kerja bersih dan segar dengan baik, maka debu-debu pada mesin dan jendela harus bersih, pintu dan jendela harus dalam keadaan terbuka, di ruang laboratorium dipasang fan agar udara bersih selamaada kegiatan/praktek."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "judul": "Memelihara kebersihan kesehatan dan ketertiban",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "teks": "Bengkel/laboratorium harus tetap dalam keadaan bersih, baik sesudah maupun sebelum digunakan praktek, untuk instruktur perlu mengatur grup piket kebersihan. Bengkel/laboratorium harus menyiapkan tempat penampungan sementara bahan-bahan sisa praktekum sebelum dibuang ketempat pembuangan Air buangan /sisa bahan pencuci lainnya harus ditampung pada tempat tertentu yang dibuat untuk itu Air buangan sisa bahan proses/pencucian yang mengandung zat kimia tidak boleh langsung dibuang kesaluran /sungai tanpa dinetralisir terlebih dahulu. Setiap orang yang berada di bengkel/laboratorium harus mentaati tata tertib yang berlakau dan menggunakan peralatan sesuai prosedur. "
+                                        },
+                                    ]
+                                }
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "judul": "judul",
+            "desc": "desc",
+            "image": "images",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "judulSubBab",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "tesk"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "tesk 2"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "numbering",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "judul": "judul",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "teks": "tesk"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "teks": "tesk 2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "judul": "judul 2",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "gambar": "gambar1"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "teks": "gambar 2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "point",
+                            "items": [
+                                {
+                                    "id": 1,
+                                    "judul": "judul",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "teks": "tesk"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "teks": "tesk 2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "judul": "judul 2",
+                                    "isi": [
+                                        {
+                                            "id": 1,
+                                            "gambar": "gambar1"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "teks": "gambar 2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "gambar",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "gambar": "gambar1"
+                                },
+                                {
+                                    "id": 2,
+                                    "gambar": "gambar2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

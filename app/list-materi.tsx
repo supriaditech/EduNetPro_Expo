@@ -7,10 +7,12 @@ import {
   TextInput,
   ScrollView,
   TouchableOpacity,
+  Image,
 } from "react-native";
 import React from "react";
 import { Link } from "expo-router";
 import materiData from "../materi.json"; // Pastikan path file sesuai
+import { images } from "../assets/images";
 
 export default function ListMateri() {
   return (
@@ -29,7 +31,7 @@ export default function ListMateri() {
         contentContainerStyle={styles.scrollViewContent}
       >
         {/* Card */}
-        {materiData.materi.map((materi) => (
+        {materiData.materi.map((materi: any) => (
           <Link
             href={{ pathname: "/materi", params: { id: materi.id } }}
             asChild
@@ -39,7 +41,12 @@ export default function ListMateri() {
               <View style={styles.cardStyle}>
                 {/* Image */}
                 <View style={styles.imageStyle}>
-                  <Text>Image</Text>
+                  <Image
+                    source={images[materi.image]}
+                    alt="gambar"
+                    resizeMode="cover"
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </View>
                 {/* Judul Materi */}
                 <Text style={styles.materiTitle}>{materi.judul}</Text>
@@ -94,6 +101,7 @@ const styles = StyleSheet.create({
     aspectRatio: 16 / 9,
     backgroundColor: "green",
     borderRadius: 10,
+    overflow: "hidden",
   },
   materiTitle: {
     fontFamily: "Poppins-Bold",

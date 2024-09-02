@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { Link, useLocalSearchParams } from "expo-router";
 import materiData from "../materi.json"; // Pastikan path file sesuai
+import { images } from "../assets/images";
 
 export default function Materi() {
   let { id } = useLocalSearchParams();
@@ -43,39 +44,48 @@ export default function Materi() {
               {subBab.konten.map((konten: any, index: number) => {
                 if (konten.tipe === "paragraf") {
                   return (
-                    <Text key={index} style={styles.paragrafText}>
-                      {"\t"} {"\t"} {"\t"}
-                      {konten.isi}
-                    </Text>
+                    <View key={index}>
+                      {konten.isi.map((paragraf: any) => (
+                        <Text key={paragraf.id} style={styles.paragrafText}>
+                          {"\t"} {"\t"} {"\t"}
+                          {paragraf.teks}
+                        </Text>
+                      ))}
+                    </View>
                   );
-                } else if (konten.tipe === "poin") {
+                } else if (konten.tipe === "point") {
                   return (
                     <View key={index} style={styles.poinContainer}>
-                      <Text style={styles.poinTitle}>{konten.judul}</Text>
-                      {konten.subPoin?.map((sub: any, subIndex: number) => (
-                        <View key={subIndex}>
-                          <Text style={styles.subPoinTitle}>• {sub.judul}</Text>
-                          <Text style={styles.paragrafText}>
-                            {"\t"} {"\t"} {"\t"}
-                            {sub.isi}
+                      {konten.items.map((item: any, itemIndex: number) => (
+                        <View key={itemIndex}>
+                          <Text style={styles.subPoinTitle}>
+                            • {item.judul}
                           </Text>
-                          {sub.gambar && (
-                            <Image
-                              source={{ uri: sub.gambar }}
-                              style={styles.imageStyle}
-                            />
+                          {item.isi.map((poinIsi: any) => (
+                            <Text key={poinIsi.id} style={styles.paragrafText}>
+                              {poinIsi.teks}
+                            </Text>
+                          ))}
+                          {item.gambar && (
+                            <View
+                              style={{
+                                width: "100%",
+                                aspectRatio: 16 / 9,
+                                borderRadius: 10,
+                                overflow: "hidden",
+                                backgroundColor: "green",
+                              }}
+                            >
+                              <Image
+                                source={images[item.gambar]}
+                                alt="gambar"
+                                resizeMode="cover"
+                                style={{ width: "100%", height: "100%" }}
+                              />
+                            </View>
                           )}
                         </View>
                       ))}
-                      {konten.gambar?.map(
-                        (gambar: any, gambarIndex: number) => (
-                          <Image
-                            key={gambarIndex}
-                            source={{ uri: gambar }}
-                            style={styles.imageStyle}
-                          />
-                        ),
-                      )}
                     </View>
                   );
                 } else if (konten.tipe === "numbering") {
@@ -84,23 +94,25 @@ export default function Materi() {
                       {konten.items.map((item: any, itemIndex: number) => (
                         <View key={itemIndex} style={styles.numberingItem}>
                           <Text style={styles.numberingTitle}>
-                            {item.number}. {item.judul}
+                            {itemIndex + 1}. {item.judul}
                           </Text>
-                          <Text style={styles.paragrafText}>
-                            {"\t"} {"\t"} {"\t"}
-                            {item.isi}
-                          </Text>
+                          {item.isi.map((numberIsi: any) => (
+                            <Text
+                              key={numberIsi.id}
+                              style={styles.paragrafText}
+                            >
+                              {numberIsi.teks}
+                            </Text>
+                          ))}
+                          {item.gambar && (
+                            <Image
+                              source={images[item.gambar]}
+                              style={styles.imageStyle}
+                            />
+                          )}
                         </View>
                       ))}
                     </View>
-                  );
-                } else if (konten.tipe === "gambar") {
-                  return (
-                    <Image
-                      key={index}
-                      source={{ uri: konten.gambar }}
-                      style={styles.imageStyle}
-                    />
                   );
                 }
                 return null;
@@ -187,11 +199,6 @@ const styles = StyleSheet.create({
   },
   poinContainer: {
     marginBottom: 10,
-  },
-  poinTitle: {
-    fontFamily: "Poppins-SemiBold",
-    fontSize: 14,
-    marginBottom: 5,
   },
   subPoinTitle: {
     fontFamily: "Poppins-Regular",
