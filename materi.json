@@ -41,42 +41,30 @@
                                 {
                                     "id": 1,
                                     "teks": "     Menjaga/memelihara area dan tempat kerja membutuhkan perhatian dan kewaspadaan yang terus menerus, satu upaya penyelamatan tergantung pada unjuk kerja setiap pekerja/siswa yang bekerja di tempat tersebut. Kecelakaan sangat mudah terjadi, maka dari itu setiap bekerja dan selesai bekerja di mana tempat kerja perlu dirapihkan, seperti uraian tugas berikut:"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "tipe": "numbering",
-                            "items": [
-                                {
-                                    "id": 1,
-                                    "judul": "Kesehatan kerja",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Tempat kerja pekerja dipelihara kebersihan dan kerapihannya, untuk kesehatan bersama, misalnya dilarang meludah di lantai, dilarang membuang sampah di sembarang tempat, membersihkan meja kerja dan peralatan yang dipakai. Setiap pekerja harus mematuhi dan melaksanakan instruksi-instruksi tentang pemakaian alat-alat pelindung K3 yang disediakan. Setiap pekerja yang mengetahui pekerja lain menderita penyakit menular seperti lepra, syphilis, kolera, TBC, demam berdarah, muntaber, dan sebagainya, harus segera melapor kepada pimpinan untuk segera diambil langkah-langkah pencegahan."
-                                        }
-                                    ]
                                 },
                                 {
                                     "id": 2,
-                                    "judul": "Menyelenggarakan penyegaran udara",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Agar sirkulasi udara di tempat kerja bersih dan segar dengan baik, maka debu-debu pada mesin dan jendela harus bersih, pintu dan jendela harus dalam keadaan terbuka, di ruang laboratorium dipasang fan agar udara bersih selama ada kegiatan/praktek."
-                                        }
-                                    ]
+                                    "teks": "1. Kesehatan Kerja:"
                                 },
                                 {
                                     "id": 3,
-                                    "judul": "Memelihara kebersihan, kesehatan, dan ketertiban",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Bengkel/laboratorium harus tetap dalam keadaan bersih, baik sesudah maupun sebelum digunakan praktek, untuk instruktur perlu mengatur grup piket kebersihan. Bengkel/laboratorium harus menyiapkan tempat penampungan sementara bahan-bahan sisa praktek sebelum dibuang ke tempat pembuangan. Air buangan/sisa bahan pencuci lainnya harus ditampung pada tempat tertentu yang dibuat untuk itu. Air buangan sisa bahan proses/pencucian yang mengandung zat kimia tidak boleh langsung dibuang ke saluran/sungai tanpa dinetralisir terlebih dahulu. Setiap orang yang berada di bengkel/laboratorium harus mentaati tata tertib yang berlaku dan menggunakan peralatan sesuai prosedur."
-                                        }
-                                    ]
+                                    "teks": "     Tempat kerja pekerja dipelihara kebersihan dan kerapihannya, untuk kesehatan bersama, misalnya dilarang meludah di lantai, dilarang membuang sampah di sembarang tempat, membersihkan meja kerja dan peralatan yang dipakai. Setiap pekerja harus mematuhi dan melaksanakan instruksi-instruksi tentang pemakaian alat-alat pelindung K3 yang disediakan. Setiap pekerja yang mengetahui pekerja lain menderita penyakit menular seperti lepra, syphilis, kolera, TBC, demam berdarah, muntaber, dan sebagainya, harus segera melapor kepada pimpinan untuk segera diambil langkah-langkah pencegahan."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "2. Menyelenggarakan Penyegaran Udara:"
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "     Agar sirkulasi udara di tempat kerja bersih dan segar dengan baik, maka debu-debu pada mesin dan jendela harus bersih, pintu dan jendela harus dalam keadaan terbuka, di ruang laboratorium dipasang fan agar udara bersih selama ada kegiatan/praktek."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "3. Memelihara kebersihan, kesehatan, dan ketertiban:"
+                                },
+                                {
+                                    "id": 7,
+                                    "teks": "     Bengkel/laboratorium harus tetap dalam keadaan bersih, baik sesudah maupun sebelum digunakan praktek, untuk instruktur perlu mengatur grup piket kebersihan. Bengkel/laboratorium harus menyiapkan tempat penampungan sementara bahan-bahan sisa praktek sebelum dibuang ke tempat pembuangan. Air buangan/sisa bahan pencuci lainnya harus ditampung pada tempat tertentu yang dibuat untuk itu. Air buangan sisa bahan proses/pencucian yang mengandung zat kimia tidak boleh langsung dibuang ke saluran/sungai tanpa dinetralisir terlebih dahulu. Setiap orang yang berada di bengkel/laboratorium harus mentaati tata tertib yang berlaku dan menggunakan peralatan sesuai prosedur."
                                 }
                             ]
                         }
@@ -359,7 +347,7 @@
         {
             "id": 2,
             "judul": "ANATOMI KOMPUTER",
-            "desc": "Deskripsi tentang anatomi komputer.",
+            "desc": "Pengantar lengkap tentang komponen utama komputer dan fungsinya.",
             "image": "componentscomputer",
             "subBab": [
                 {
@@ -372,126 +360,83 @@
                             "isi": [
                                 {
                                     "id": 1,
-                                    "teks": "Anatomi komputer memiliki 3 bagian:"
+                                    "teks": "     Anatomi komputer memiliki 3 bagian:"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "1. Perangkat Masukan"
+                                },
+                                {
+                                    "id": 3,
+                                    "gambar": "keyboard"
+                                },
+                                {
+                                    "id": 4,
+                                    "gambar": "mouse"
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "2. Proses:"
                                 }
                             ]
                         },
                         {
                             "id": 2,
-                            "tipe": "numbering",
-                            "items": [
+                            "tipe": "paragraf",
+                            "isi": [
                                 {
                                     "id": 1,
-                                    "judul": "Perangkat Masukan",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "gambar": "keyboard"
-                                        },
-                                        {
-                                            "id": 2,
-                                            "gambar": "mouse"
-                                        }
-                                    ]
+                                    "teks": "• Motherboard (mobo)/mainboard:"
                                 },
                                 {
                                     "id": 2,
-                                    "judul": "Proses",
-                                    "isi": []
+                                    "teks": "     Mainboard merupakan tempat bersatunya semua komponen-komponen CPU yang membentuk sebuah benda yang dinamakan komputer. Di dalam mobo ini garis besarnya terdapat:",
+                                    "gambar": "mobo"
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Microprosesor:"
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "     Mikroprosesor adalah CPU yang diproduksi dalam sirkuit terpadu, seringkali dalam sebuah paket sirkuit terpadu tunggal. Saat ini ada dua tipe mikroprosesor yang digunakan oleh personal komputer: 1. Tipe Intel, dibuat oleh Intel, AMD, dan beberapa perusahaan lain. 2. Tipe Motorola, dibuat oleh Motorola dan digunakan oleh komputer Apple McIntosh.",
+                                    "gambar": "cpu"
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "• ROM:"
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "     ROM (Read Only Memory) adalah memori untuk menyimpan data program yang sudah dimasukkan oleh pabrik motherboard dan tidak dapat dihapus. Program yang tersimpan dalam ROM misalnya adalah program yang diperlukan untuk menyalakan komputer. Program ini dapat dibaca atau digunakan tetapi tidak dapat dihapus. Program yang ada di dalam ROM tidak akan hilang meskipun aliran listrik mati atau terputus.",
+                                    "gambar": "rom"
+                                },
+                                {
+                                    "id": 7,
+                                    "teks": "• RAM"
+                                },
+                                {
+                                    "id": 8,
+                                    "teks": "     RAM (Random Access Memory) adalah sebuah memori khusus yang bersifat sementara (jangka pendek). Fungsi RAM adalah menyimpan data/instruksi yang segera akan dijalankan. Data/instruksi yang tersimpan dalam RAM akan diakses oleh CPU secara cepat dan acak. Data yang tersimpan dalam RAM bersifat 'mudah hilang'. Hal ini disebabkan kerja RAM sangat tergantung pada suplai aliran listrik, sehingga apabila aliran listrik terputus, maka data yang tersimpan di dalamnya akan hilang.",
+                                    "gambar": "ram"
                                 }
                             ]
                         },
                         {
                             "id": 3,
-                            "tipe": "point",
-                            "items": [
+                            "tipe": "paragraf",
+                            "isi": [
                                 {
                                     "id": 1,
-                                    "judul": "Motherboard (mobo)/mainboard",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Mainboard merupakan tempat bersatunya semua komponen-komponen CPU yang membentuk sebuah benda yang dinamakan komputer. Di dalam mobo ini garis besarnya terdapat:"
-                                        },
-                                        {
-                                            "id": 2,
-                                            "gambar": "mobo"
-                                        }
-                                    ]
+                                    "teks": "3. Perangkat Keluaran: "
                                 },
                                 {
                                     "id": 2,
-                                    "judul": "Microprosesor",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Mikroprosesor adalah CPU yang diproduksi dalam sirkuit terpadu, seringkali dalam sebuah paket sirkuit terpadu tunggal."
-                                        },
-                                        {
-                                            "id": 2,
-                                            "teks": "     Saat ini ada dua tipe mikroprosesor yang digunakan oleh personal komputer:"
-                                        },
-                                        {
-                                            "id": 3,
-                                            "teks": "1. Tipe Intel, dibuat oleh Intel, AMD, dan beberapa perusahaan lain."
-                                        },
-                                        {
-                                            "id": 4,
-                                            "teks": "2. Tipe Motorola, dibuat oleh Motorola dan digunakan oleh komputer Apple McIntosh."
-                                        },
-                                        {
-                                            "id": 5,
-                                            "gambar": "cpu"
-                                        }
-                                    ]
+                                    "gambar": "monitor"
                                 },
                                 {
                                     "id": 3,
-                                    "judul": "ROM",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     ROM (Read Only Memory) adalah memori untuk menyimpan data program yang sudah dimasukkan oleh pabrik motherboard dan tidak dapat dihapus. Program yang tersimpan dalam ROM misalnya adalah program yang diperlukan untuk menyalakan komputer. Program ini dapat dibaca atau digunakan tetapi tidak dapat dihapus. Program yang ada di dalam ROM tidak akan hilang meskipun aliran listrik mati atau terputus."
-                                        },
-                                        {
-                                            "id": 2,
-                                            "gambar": "rom"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": 4,
-                                    "judul": "RAM",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     RAM (Random Access Memory) adalah sebuah memori khusus yang bersifat sementara (jangka pendek). Fungsi RAM adalah menyimpan data/instruksi yang segera akan dijalankan. Data/instruksi yang tersimpan dalam RAM akan diakses oleh CPU secara cepat dan acak. Data yang tersimpan dalam RAM bersifat 'mudah hilang'. Hal ini disebabkan kerja RAM sangat tergantung pada suplai aliran listrik, sehingga apabila aliran listrik terputus, maka data yang tersimpan di dalamnya akan hilang."
-                                        },
-                                        {
-                                            "id": 2,
-                                            "gambar": "ram"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "tipe": "numbering",
-                            "items": [
-                                {
-                                    "id": 1,
-                                    "judul": "Perangkat Keluaran",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "gambar": "monitor"
-                                        },
-                                        {
-                                            "id": 2,
-                                            "gambar": "printer"
-                                        }
-                                    ]
+                                    "gambar": "printer"
                                 }
                             ]
                         }
@@ -503,65 +448,64 @@
                     "konten": [
                         {
                             "id": 1,
-                            "tipe": "point",
-                            "items": [
+                            "tipe": "paragraf",
+                            "isi": [
                                 {
                                     "id": 1,
-                                    "judul": "CPU",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     CPU (Central Processing Unit) adalah perangkat keras komputer yang berfungsi untuk menerima dan melaksanakan perintah dan data dari perangkat lunak."
-                                        },
-                                        {
-                                            "id": 2,
-                                            "teks": "     CPU mempunyai dua komponen utama:"
-                                        },
-                                        {
-                                            "id": 3,
-                                            "teks": "1. Control Unit berperan sebagai polisi lalu-lintas, yang mengatur apa yang harus dikerjakan sekarang dan nanti terhadap data yang sedang diolah."
-                                        },
-                                        {
-                                            "id": 4,
-                                            "teks": "- ALU menjalankan operasi aritmatika dan operasi logika disamping mengendalikan kecepatan operasinya."
-                                        },
-                                        {
-                                            "id": 5,
-                                            "teks": "- Operasi aritmatika meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Operasi logika didasarkan pada perbandingan."
-                                        },
-                                        {
-                                            "id": 6,
-                                            "teks": "- Dengan menggunakan ALU, komputer dapat mengetahui enam hubungan logika yaitu =, <, >, ≤, ≥, < atau >."
-                                        },
-                                        {
-                                            "id": 7,
-                                            "teks": "Cara kerja CPU:"
-                                        },
-                                        {
-                                            "id": 8,
-                                            "teks": "- Hampir seluruh penghitungan komputer berupa siklus yang meliputi pembacaan, penguraian, eksekusi, dan penyimpanan."
-                                        },
-                                        {
-                                            "id": 9,
-                                            "teks": "- CPU membaca data/perintah yang disimpan dalam RAM, kemudian menguraikannya. Instruksi yang dihasilkan kemudian dieksekusi oleh ALU."
-                                        },
-                                        {
-                                            "id": 10,
-                                            "teks": "Informasi yang dihasilkan oleh ALU kemudian disimpan kembali dalam RAM."
-                                        },
-                                        {
-                                            "id": 11,
-                                            "teks": "- CPU membaca data/perintah berikutnya."
-                                        },
-                                        {
-                                            "id": 12,
-                                            "teks": "- Siklus berlangsung sangat cepat (jutaan siklus per detik)."
-                                        },
-                                        {
-                                            "id": 13,
-                                            "gambar": "cpunew"
-                                        }
-                                    ]
+                                    "teks": "• CPU"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "     CPU (Central Processing Unit) adalah perangkat keras komputer yang berfungsi untuk menerima dan melaksanakan perintah dan data dari perangkat lunak"
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "     CPU mempunyai dua komponen utama:"
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "1. Control Unit berperan sebagai polisi lalu-lintas, yang mengatur apa yang harus dikerjakan sekarang dan nanti terhadap data yang sedang diolah."
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "2.  Arithmetic Logic Unit (ALU) merupakan kalkulator bagi komputer."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "• ALU menjalankan operasi aritmatika dan operasi logika disamping mengendalikan kecepatan operasinya."
+                                },
+                                {
+                                    "id": 7,
+                                    "teks": "• Operasi aritmatika meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Operasi logika didasarkan pada perbandingan."
+                                },
+                                {
+                                    "id": 8,
+                                    "teks": "• Dengan menggunakan ALU, komputer dapat mengetahui enam hubungan logika yaitu =, <, >, ≤, ≥, < atau >."
+                                },
+                                {
+                                    "id": 9,
+                                    "teks": "      Cara kerja CPU:"
+                                },
+                                {
+                                    "id": 10,
+                                    "teks": "• Hampir seluruh penghitungan komputer berupa siklus yang meliputi pembacaan, penguraian, eksekusi, dan penyimpanan."
+                                },
+                                {
+                                    "id": 11,
+                                    "teks": "• CPU membaca data/perintah yang disimpan dalam RAM, kemudian menguraikannya. Instruksi yang dihasilkan kemudian dieksekusi oleh ALU."
+                                },
+                                {
+                                    "id": 12,
+                                    "teks": "      Instruksi yang dihasilkan kemudian dieksekusi oleh ALU. Informasi yang dihasilkan oleh ALU kemudian disimpan kembali dalam RAM"
+                                },
+                                {
+                                    "id": 13,
+                                    "teks": "• CPU membaca data/perintah berikutnya. Siklus berlangsung sangat cepat (jutaan siklus per detik)."
+                                },
+                                {
+                                    "id": 14,
+                                    "teks": "• Siklus berlangsung sangat cepat (jutaan siklus per detik).",
+                                    "gambar": "cpunew"
                                 }
                             ]
                         }
@@ -844,7 +788,7 @@
         {
             "id": 3,
             "judul": "SISTEM OPERASI",
-            "desc": "Deskripsi tentang Sistem Operasi",
+            "desc": "Penjelasan tentang jenis-jenis Sistem Operasi dan cara kerjanya dalam lingkungan komputer modern.",
             "image": "oscomputer",
             "subBab": [
                 {
@@ -857,7 +801,7 @@
                             "isi": [
                                 {
                                     "id": 1,
-                                    "teks": "     Sistem operasi atau operating system ( OS) adalah perangkat lunak sistem yang bertugas untuk melakukan kontrol dan manajemen perangkat keras serta operasi-operasi dasar sistem, termasuk menjalankan software aplikasi seperti program-program pengolah kata dan multimedia."
+                                    "teks": "     Sistem operasi atau operating system (OS) adalah perangkat lunak sistem yang bertugas untuk melakukan kontrol dan manajemen perangkat keras serta operasi-operasi dasar sistem, termasuk menjalankan software aplikasi seperti program-program pengolah kata dan multimedia."
                                 },
                                 {
                                     "id": 2,
@@ -865,55 +809,43 @@
                                 },
                                 {
                                     "id": 3,
-                                    "teks": "Macam – Macam Software"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "tipe": "numbering",
-                            "items": [
-                                {
-                                    "id": 1,
-                                    "judul": "Sistem Operasi",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Sistem operasi merupakan sofware yang pertama kali dibaca oleh komputer pada saat booting sebagai dasar pengoperasian komputer. Terdapat 2 jenis sistem operasi berdasarkan tampilan antarmuka kepada penggunanya (user interface) yaitu yang berbasis CUI (Character User Interface) dan berbasis GUI (Graphical User Interface). Sistem operasi berbasis CUI, misalnya : DOS (Disk Operating Sistem) dan Sistem Operasi UNIX dan Linux pada mode terminal atau konsol. Sedangkan sistem operasi berbasis GUI, misalnya : Microsoft Windows 9x, 2000, NT, XP, serta sistem operasi UNIX dan Linux yang telah mendukung GUI."
-                                        }
-                                    ]
+                                    "teks": "      Macam – Macam Software"
                                 },
                                 {
-                                    "id": 2,
-                                    "judul": "Program bantuan atau Utility",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Program bantu (utility) merupakan program yang digunakan untuk mengisi kekurangan atau menampilkan kembali file suatu sistem operasi yang terhapus. PC Tools dan Norton Utilities merupakan contoh dari program ini. Salah satu dari kelemahan DOS adalah tidak mampu bekerja di sistem jaringan. Oleh karena itu beberapa perusahaan membuat program tambahan yang dapat mengubah sistem DOS tersebut (single user atau stand alone system) menjadi sistem operasi yang dapat digunakan oleh banyak pemakai (multiuser). Netware, Token R ing dan Lantastic merukan contoh-contoh program ini."
-                                        }
-                                    ]
+                                    "id": 4,
+                                    "teks": "1. Sistem Operasi:"
                                 },
                                 {
-                                    "id": 3,
-                                    "judul": "Bahasa Komputer (Computer Language)",
-                                    "isi": [
-                                        {
-                                            "id": 1,
-                                            "teks": "     Computer Language merupakan bahasa yang digunakan untuk membuat program komputer. Disebut bahasa karena computer language memiliki kosa kata dan tata bahasa yang harus ditaati oleh pemakainya."
-                                        },
-                                        {
-                                            "id": 2,
-                                            "teks": "Yang termasuk dalam jenis ini adalah :"
-                                        },
-                                        {
-                                            "id": 3,
-                                            "teks": "a. Low Level Language, merupakan bahasa tingkat rendah karena sulit dipahami dan hanya dapat dimengerti oleh pembuatnya. Yang termasuk program ini adalah bahasa mesin assembly language"
-                                        },
-                                        {
-                                            "id": 4,
-                                            "teks": "b. High Level Language, merupakan bahasa tingkat tinggi karena menggunakan katakata yang mudah dimengerti. Contoh dari program ini adalah BASIC, PASCAL, FORTRAN, dsb."
-                                        }
-                                    ]
+                                    "id": 5,
+                                    "teks": "     Sistem operasi merupakan sofware yang pertama kali dibaca oleh komputer pada saat booting sebagai dasar pengoperasian komputer. Terdapat 2 jenis sistem operasi berdasarkan tampilan antarmuka kepada penggunanya (user interface) yaitu yang berbasis CUI (Character User Interface) dan berbasis GUI (Graphical User Interface). Sistem operasi berbasis CUI, misalnya : DOS (Disk Operating Sistem) dan Sistem Operasi UNIX dan Linux pada mode terminal atau konsol. Sedangkan sistem operasi berbasis GUI, misalnya : Microsoft Windows 9x, 2000, NT, XP, serta sistem operasi UNIX dan Linux yang telah mendukung GUI."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "2. Program bantuan atau Utility:"
+                                },
+                                {
+                                    "id": 7,
+                                    "teks": "     Program bantu (utility) merupakan program yang digunakan untuk mengisi kekurangan atau menampilkan kembali file suatu sistem operasi yang terhapus. PC Tools dan Norton Utilities merupakan contoh dari program ini. Salah satu dari kelemahan DOS adalah tidak mampu bekerja di sistem jaringan. Oleh karena itu beberapa perusahaan membuat program tambahan yang dapat mengubah sistem DOS tersebut (single user atau stand alone system) menjadi sistem operasi yang dapat digunakan oleh banyak pemakai (multiuser). Netware, Token R ing dan Lantastic merukan contoh-contoh program ini."
+                                },
+                                {
+                                    "id": 8,
+                                    "teks": "3. Bahasa Komputer (Computer Language):"
+                                },
+                                {
+                                    "id": 9,
+                                    "teks": "     Computer Language merupakan bahasa yang digunakan untuk membuat program komputer. Disebut bahasa karena computer language memiliki kosa kata dan tata bahasa yang harus ditaati oleh pemakainya."
+                                },
+                                {
+                                    "id": 10,
+                                    "teks": "     Yang termasuk dalam jenis ini adalah:"
+                                },
+                                {
+                                    "id": 11,
+                                    "teks": "a. Low Level Language, merupakan bahasa tingkat rendah karena sulit dipahami dan hanya dapat dimengerti oleh pembuatnya. Yang termasuk program ini adalah bahasa mesin assembly language."
+                                },
+                                {
+                                    "id": 12,
+                                    "teks": "b. High Level Language, merupakan bahasa tingkat tinggi karena menggunakan kata-kata yang mudah dimengerti. Contoh dari program ini adalah BASIC, PASCAL, FORTRAN, dsb."
                                 }
                             ]
                         }
@@ -1183,6 +1115,784 @@
                         {
                             "key": "E",
                             "teks": "Seting VGA dan sound"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "judul": "PENGELOLAAN DAN INSTALASI DRIVER PADA KOMPUTER",
+            "desc": "Materi ini membahas pentingnya driver sebagai perangkat lunak yang memungkinkan komunikasi antara perangkat keras dan sistem operasi, serta langkah-langkah dasar untuk menginstalnya.",
+            "image": "management",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Menerapkan Driver Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Driver adalah perangkat lunak yang mengizinkan sebuah sistem komputer untuk berkomunikasi dengan sebuah perangkat keras. Sebagian besar perangkat keras tidak akan dapat berjalan atau sama sekali tidak dapat berjalan tanpa driver yang cocok yang terinstal di dalam sistem operasi."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "     Dalam dunia komputer, driver bertugas sebagai penerjemah komunikasi antara perangkat keras itu sendiri dengan sistem operasi. Perlu diketahui bahwa setiap perangkat keras di komputer bekerja dengan cara dan bahasanya sendiri, tidak menggunakan command yang distandarkan."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "     Fungsi utama driver komputer adalah menyediakan transparansi dan bertindak sebagai penerjemah perintah antara hardware dengan sistem operasi atau aplikasi. Pembuat aplikasi dapat mengontrol hardware dengan mudah cukup dengan mengimplementasikan API (Application Programming Interface) yang disediakan driver dengan bahasa program yang lebih tinggi."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "     Fungsi driver komputer sebagai penerjemah terlihat saat kita mengetik menggunakan keyboard sebagai input dan Microsoft Word sebagai aplikasi mesin ketik. Agar ketukan keyboard muncul di aplikasi Microsoft Word, sebuah driver keyboard harus diinstal agar aplikasi dapat mengerti apa yang diketikkan keyboard."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Menginstal Driver Perangkat H/W",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Cara menginstal driver sama dengan menginstal aplikasi lain. Jika driver ada dalam kepingan CD/DVD, caranya cukup mudah, tinggal ikuti saja petunjuk yang ada ketika aplikasi berjalan otomatis saat CD/DVD dimasukkan ke komputer."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "     Masukkan CD/DVD Driver ke dalam CD/DVD ROM Drive. Tunggu hingga auto start berjalan dan menampilkan jendela instalasi. Baca setiap menu yang ada dan pahami maksudnya, karena tampilan setiap driver bisa berbeda-beda."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "     Klik pada menu yang menyatakan untuk menginstal driver. Ikuti prosedur yang ada untuk menginstal driver. Jika diminta restart, maka restart komputermu agar driver dapat berjalan dengan baik."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "     Setiap tampilan untuk menu instalasi driver berbeda-beda karena disesuaikan dengan fungsi dari perangkat tersebut, jadi saat menginstal driver, wajib membaca panduan sebelum mengklik next atau install."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Seperangkat komputer yang digunakan oleh satu orang saja / pribadi adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Server"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Client"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "PC"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Client Server"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "NIC"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Yang termasuk dalam Hardware pendukung jaringan internet adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Modem, OS, HUB, NIC, Router"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Modem, Browser, OS, Router"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Modem, HUB, NIC, Router"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Hub, Router, NIC, OS"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "OS, Browser, Driver"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Sebuah kartu yang berfungsi sebagai jembatan dari komputer ke sebuah jaringan komputer adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "NIC"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Modem"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Router"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Hub"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Switch"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Perangkat keras komputer yang berfungsi sebagai alat untuk memasukan data atau perintah ke dalam komputer adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Output Device"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Input Device"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "I/O Port"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Data Bus"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Memori"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Yang termasuk dalam Software pendukung jaringan internet adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Modem, OS, HUB, NIC, Router"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Modem, Browser, OS, Router"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Modem, HUB, NIC, Router"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Hub, Router, NIC, OS"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "OS, Browser, Driver"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Jalur-jalur perpindahan data antar modul dalam sistem komputer adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Input Device (Alat Masukan)"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Output Device (Alat Keluaran)"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "CPU (Central Processing Unit)"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Memori"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Data Bus"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Modem kepanjangan dari…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Modulasi Demodulasi"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Modulator Demodulator"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Modulsi Demodulator"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Modulator Demodulasi"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Salah Semua"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Yang Bukan Kelebihan proses instalasi sistem operasi berbasis GUI adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Lebih mudah untuk dipahami"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Proses penginstalan menjadi lebih lama"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Perintah perintah dalam proses penginstalan ditampilkan dengan jelas"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Proses penginstalan tidak terlalu rumit"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Visual efek dalam monitor sudah tersedia sehingga lebih menarik bagi indera kita"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Yang dimaksud dengan proses 'installasi' adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Memindah data dari media penyimpan ke komputer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Perintah-perintah untuk menjalankan suatu proses"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Membuat program dari yang belum ada menjadi ada"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Menguraikan file-file & Menyesuaikan program dengan alat-alat yang terpasang pada komputer"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Menyalin file-file dari program yang bersangkutan ke media penyimpan dan menjalankan program tersebut"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Yang digunakan untuk menerima ataupun mengirim data ke luar sistem adalah…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "I/O Ports"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Control Bus"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Address Bus"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Topologi Bus"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Sistem Bus"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "judul": "MENERAPKAN SOFTWARE",
+            "desc": "Penjelasan mengenai berbagai jenis perangkat lunak, fungsi sistem operasi, dan langkah-langkah instalasi perangkat lunak pada komputer.",
+            "image": "software",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Menerapkan Software",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Software merupakan sekumpulan instruksi atau perintah-perintah yang digunakan untuk mengendalikan komputer sehingga komputer dapat melakukan fungsi sesuai dengan instruksi tersebut."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "subjudul",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Macam-Macam Perangkat Lunak"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "a) Perangkat Lunak Aplikasi: Perangkat lunak aplikasi biasanya digunakan untuk membantu menyelesaikan tugas, misalnya surat-menyurat, membuat dokumen, memanipulasi foto, membuat laporan keuangan, atau merancang desain suatu bangunan."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Perangkat lunak untuk kategori bisnis adalah perangkat lunak untuk keperluan pengolahan kata, spreadsheet, basis data, presentasi grafis, akuntansi, personal information manager, dan manajemen proyek."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Perangkat lunak untuk kategori multimedia dan grafis adalah CAD (Computer-Aided Design), perangkat lunak untuk menentukan tata letak atau desain layout pada percetakan, penyuntingan gambar, penyuntingan foto, penyuntingan audio dan video, dan pembuatan web."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "b) Perangkat Lunak Sistem: Perangkat lunak sistem berguna untuk mengontrol berbagai sumber daya yang ada pada peralatan yang digunakan pada komputer, yaitu CPU, peralatan input, dan peralatan output. Perangkat lunak sistem berfungsi sebagai jembatan penghubung antara program aplikasi yang digunakan dengan elemen-elemen perangkat keras (sumber daya komputer) yang dipakai. Contoh perangkat lunak sistem di antaranya adalah sistem operasi Windows dan Linux."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "subjudul",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. Pengertian Sistem Operasi"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Sistem operasi merupakan jembatan atau penghubung yang digunakan untuk melakukan komunikasi atau hubungan antara peralatan yang digunakan dan manusia. Tugas OS adalah menerjemahkan bahasa yang digunakan oleh manusia, yaitu bahasa pemrograman, ke bahasa yang dimengerti oleh perangkat keras (mesin). Contoh perangkat lunak OS di antaranya adalah DOS, Microsoft Windows, Mac OS X, UNIX, LINUX, dan Google Chrome OS."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "tipe": "subjudul",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "3. Persiapan Instalasi Perangkat Lunak"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Beberapa hal yang harus disiapkan untuk instalasi perangkat lunak adalah jenis perangkat lunak yang akan digunakan serta spesifikasi dan kondisi perangkat keras yang akan digunakan. Perangkat keras tersebut harus mendukung fasilitas OS dan perangkat lunak yang akan diinstal."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Menginstalasi Software",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "subjudul",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Instalasi Perangkat Lunak Windows XP"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "a. Siapkan CD/DVD Master Windows XP, kemudian masukkan ke dalam CD/DVD ROM."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "b. Lakukan booting menggunakan CD/DVD master yang sudah dimasukkan. Komputer akan secara otomatis melakukan booting dan menampilkan menu instalasi."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "c. Tekan Enter untuk melakukan proses instalasi, kemudian tunggu sampai proses tersebut selesai."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "subjudul",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. Instalasi Perangkat Lunak Microsoft Office 2007"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Langkah-langkah proses instalasi Ms. Office 2007:"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Masukkan CD/DVD master Ms. Office 2007 ke dalam CD/DVD ROM. Kemudian, buka jendela Windows Explorer, klik CD/DVD Drive, dan double klik setup.exe."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Pada jendela berikutnya, kamu diminta untuk mengisi Product Key. Isilah Product Key sesuai kode yang terdapat pada CD/DVD master Office 2007."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "• Pada jendela berikutnya, klik checklist 'I accept the terms of this agreement' sebagai persetujuan untuk melakukan proses instalasi berikutnya, lalu klik Continue."
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "• Pada jendela berikutnya, klik Install Now untuk menginstal seluruh paket aplikasi Office 2007. Jika kamu hanya ingin menginstal paket-paket tertentu, klik Customize."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "• Setelah kamu klik Install Now, proses instalasi segera dimulai. Tunggulah selama beberapa menit hingga muncul jendela berikutnya, lalu klik Close untuk mengakhiri proses instalasi."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Salah satu perangkat lunak berikut ini yang berfungsi memeriksa kerusakan pada disk dan mengatur ulang isi hardisk adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Windows Explorer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Windows Formating"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Norton Utility"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Direct Operating System"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Scandisk"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Di bawah ini termasuk perangkat aplikasi pemroses tabel, kecuali...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "MS-Excel"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Chi Writer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Open Office Calc"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Lotus 123"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Quatro Pro"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Yang bukan termasuk perangkat aplikasi multimedia adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "FLY Player"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "FLV Player"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Real Player"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "DVD Player"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Jet Audio"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "CD Key pada instalasi MS Office 2007 terdiri dari... karakter",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "8"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "16"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "20"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "25"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "30"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Ketika mendownload software dari internet, hasil download diperoleh adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Dicopy langsung bisa digunakan"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Masih dalam format RAR"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Masih dalam format PDF"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Langsung terinstal pada PC"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Otomatis terpasang pada sistem"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Untuk menguji keberhasilan instalasi software aplikasi dengan cara...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Dijalankan tanpa ada masalah"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Bisa dibuat shortcut"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Muncul dalam icon taskbar"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Muncul dalam folder Explorer"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Terdapat dalam Start > All Programs"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Di antara versi software browser Firefox di bawah ini, yang terbaru adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "3.0"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "3.6"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "3.6.2"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "3.6.3"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "4.0"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Langkah untuk melepas software aplikasi dari sistem Windows XP adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Start – Control Panel – Add Hardware – Program - Remove"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Start – Control Panel – Add Hardware – Program - Delete"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Start – Explorer – Program Files - Delete"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Start – Control Panel – Add/Remove Program - Delete"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Start – Control Panel – Add/Remove Program – Remove"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Langkah awal memulai instalasi software MS Office 2007 lewat CD adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Klik Install – Klik Continue - Masukkan CD Key – Klik I accept the terms of this agreement - dst"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Double Klik Install – Masukkan CD Key – Klik Continue – Klik I accept the terms of this agreement - dst"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Klik Setup – Masukkan CD Key – Klik Continue – Klik I accept the terms of this agreement - dst"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Double Klik Setup – Masukkan CD Key – Klik I accept the terms of this agreement – Klik Continue - dst"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Double Klik Setup – Masukkan CD Key – Klik Continue – Klik I accept the terms of this agreement – dst"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Langkah berikutnya setelah selesai proses instalasi software adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Mengecek kapasitas hardisk"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Mencoba hasil instalasi"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Restart PC"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Mengecek penggunaan memori"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Mematikan PC"
                         }
                     ],
                     "kunciJawaban": "C"

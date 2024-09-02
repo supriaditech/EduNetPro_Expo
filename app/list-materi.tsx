@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 10,
     gap: 8,
+    marginBottom: 20,
   },
   inputStyle: {
     backgroundColor: "#FFFFFF",

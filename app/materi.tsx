@@ -13,6 +13,8 @@ import { Link, useLocalSearchParams } from "expo-router";
 import materiData from "../materi.json"; // Pastikan path file sesuai
 import { images } from "../assets/images";
 
+type ImageKeys = keyof typeof images;
+
 export default function Materi() {
   let { id } = useLocalSearchParams();
   if (Array.isArray(id)) {
@@ -54,7 +56,7 @@ export default function Materi() {
                           )}
                           {paragraf.gambar && (
                             <Image
-                              source={images[paragraf.gambar]}
+                              source={images[paragraf.gambar as ImageKeys]}
                               style={styles.imageStyle}
                             />
                           )}
@@ -122,26 +124,8 @@ export default function Materi() {
             </View>
           ))}
           <Link href={{ pathname: "/soal", params: { id: materi.id } }} asChild>
-            <TouchableOpacity>
-              <View
-                style={{
-                  backgroundColor: "#043259",
-                  padding: 10,
-                  borderRadius: 10,
-                  marginTop: 20,
-                }}
-              >
-                <Text
-                  style={{
-                    fontFamily: "Poppins-Bold",
-                    fontSize: 16,
-                    textAlign: "center",
-                    color: "#FFFFFF",
-                  }}
-                >
-                  Lihat Soal
-                </Text>
-              </View>
+            <TouchableOpacity style={styles.linkButton}>
+              <Text style={styles.linkButtonText}>Lihat Soal</Text>
             </TouchableOpacity>
           </Link>
         </View>
@@ -223,5 +207,17 @@ const styles = StyleSheet.create({
     height: 200,
     marginVertical: 10,
     borderRadius: 10,
+  },
+  linkButton: {
+    backgroundColor: "#043259",
+    padding: 10,
+    borderRadius: 10,
+    marginTop: 20,
+  },
+  linkButtonText: {
+    fontFamily: "Poppins-Bold",
+    fontSize: 16,
+    textAlign: "center",
+    color: "#FFFFFF",
   },
 });
