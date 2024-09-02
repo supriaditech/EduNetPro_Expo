@@ -53,6 +53,7 @@ export default function RootLayout() {
         <Stack.Screen name="list-materi" options={{ headerShown: false }} />
         <Stack.Screen name="materi" options={{ headerShown: false }} />
         <Stack.Screen name="soal" options={{ headerShown: false }} />
+        <Stack.Screen name="pembahasan" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
     </ThemeProvider>

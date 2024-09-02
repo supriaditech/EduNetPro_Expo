@@ -9,7 +9,11 @@ import {
   TouchableOpacity,
 } from "react-native";
 import materiData from "../materi.json"; // Pastikan path file sesuai
-import { useLocalSearchParams } from "expo-router";
+import { Link, useLocalSearchParams } from "expo-router";
+
+interface SelectedAnswers {
+  [key: string]: string;
+}
 
 export default function Soal() {
   let { id } = useLocalSearchParams();
@@ -18,7 +22,7 @@ export default function Soal() {
   }
   const materi = materiData.materi.find((item) => item.id === parseInt(id));
 
-  const [selectedAnswers, setSelectedAnswers] = useState({});
+  const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswers>({});
   const [submitted, setSubmitted] = useState(false);
 
   if (!materi) {
@@ -29,7 +33,7 @@ export default function Soal() {
     );
   }
 
-  const handleAnswerSelect = (questionId: any, key: any) => {
+  const handleAnswerSelect = (questionId: number, key: string) => {
     if (!submitted) {
       setSelectedAnswers({
         ...selectedAnswers,
@@ -52,19 +56,8 @@ export default function Soal() {
 
           return (
             <View key={soal.id} style={styles.cardStyle}>
-              <Text style={{ fontFamily: "Poppins-Bold" }}>
-                Soal No. {index + 1}
-              </Text>
-              <Text
-                style={{
-                  fontFamily: "Poppins-Regular",
-                  fontSize: 12,
-                  textAlign: "justify",
-                }}
-              >
-                {soal.pertanyaan}
-              </Text>
-              {/* Pilihan Ganda */}
+              <Text style={styles.questionNumber}>Soal No. {index + 1}</Text>
+              <Text style={styles.questionText}>{soal.pertanyaan}</Text>
               {soal.opsi.map((option) => {
                 const isSelected = selectedAnswers[soal.id] === option.key;
                 const isCorrectAnswer = option.key === soal.kunciJawaban;
@@ -74,65 +67,45 @@ export default function Soal() {
                     key={option.key}
                     style={[
                       styles.optionContainer,
-                      submitted && isCorrectAnswer && styles.correctOption, // Highlight jawaban yang benar
+                      submitted && isCorrectAnswer && styles.correctOption,
                       submitted &&
                         isSelected &&
                         !isCorrect &&
-                        styles.incorrectOption, // Highlight jawaban yang salah
-                      isSelected && !submitted && styles.selectedOption, // Highlight jawaban yang dipilih sebelum dikirim
+                        styles.incorrectOption,
+                      isSelected && !submitted && styles.selectedOption,
                     ]}
                     onPress={() => handleAnswerSelect(soal.id, option.key)}
                   >
-                    <Text
-                      style={{ fontFamily: "Poppins-Regular", fontSize: 12 }}
-                    >
+                    <Text style={styles.optionText}>
                       {option.key}. {option.teks}
                     </Text>
                   </TouchableOpacity>
                 );
               })}
               {submitted && (
-                <View style={{ paddingVertical: 20, gap: 8 }}>
-                  {/* Koreksi */}
+                <View style={styles.resultContainer}>
                   <View
-                    style={{
-                      paddingHorizontal: 12,
-                      paddingVertical: 8,
-                      backgroundColor: isCorrect ? "#d4edda" : "#f8d7da",
-                      borderRadius: 4,
-                    }}
+                    style={[
+                      styles.resultBox,
+                      { backgroundColor: isCorrect ? "#d4edda" : "#f8d7da" },
+                    ]}
                   >
                     <Text
-                      style={{
-                        textAlign: "center",
-                        fontSize: 12,
-                        fontFamily: "Poppins-Regular",
-                        color: isCorrect ? "#155724" : "#721c24",
-                      }}
+                      style={[
+                        styles.resultText,
+                        { color: isCorrect ? "#155724" : "#721c24" },
+                      ]}
                     >
                       {isCorrect ? "Jawaban Kamu Benar" : "Jawaban Kamu Salah"}
                     </Text>
                   </View>
-                  {/* Lihat Pembahasan */}
-                  <TouchableOpacity
-                    style={{
-                      paddingHorizontal: 12,
-                      paddingVertical: 8,
-                      backgroundColor: "#043259",
-                      borderRadius: 4,
-                    }}
-                  >
-                    <Text
-                      style={{
-                        textAlign: "center",
-                        fontSize: 12,
-                        fontFamily: "Poppins-Regular",
-                        color: "#FFFFFF",
-                      }}
-                    >
-                      Lihat Pembahasan
-                    </Text>
-                  </TouchableOpacity>
+                  <Link href={"/pembahasan"} asChild>
+                    <TouchableOpacity style={styles.discussionButton}>
+                      <Text style={styles.discussionButtonText}>
+                        Lihat Pembahasan
+                      </Text>
+                    </TouchableOpacity>
+                  </Link>
                 </View>
               )}
             </View>
@@ -175,12 +148,24 @@ const styles = StyleSheet.create({
     elevation: 5,
     marginBottom: 20,
   },
+  questionNumber: {
+    fontFamily: "Poppins-Bold",
+  },
+  questionText: {
+    fontFamily: "Poppins-Regular",
+    fontSize: 12,
+    textAlign: "justify",
+  },
   optionContainer: {
     paddingVertical: 8,
     paddingHorizontal: 12,
     borderRadius: 5,
     marginBottom: 10,
     backgroundColor: "#f0f0f0",
+  },
+  optionText: {
+    fontFamily: "Poppins-Regular",
+    fontSize: 12,
   },
   selectedOption: {
     backgroundColor: "#c0e8f9",
@@ -190,6 +175,32 @@ const styles = StyleSheet.create({
   },
   incorrectOption: {
     backgroundColor: "#f8d7da",
+  },
+  resultContainer: {
+    paddingVertical: 20,
+    gap: 8,
+  },
+  resultBox: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 4,
+  },
+  resultText: {
+    textAlign: "center",
+    fontSize: 12,
+    fontFamily: "Poppins-Regular",
+  },
+  discussionButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    backgroundColor: "#043259",
+    borderRadius: 4,
+  },
+  discussionButtonText: {
+    textAlign: "center",
+    fontSize: 12,
+    fontFamily: "Poppins-Regular",
+    color: "#FFFFFF",
   },
   submitButton: {
     backgroundColor: "#FFFFFF",
