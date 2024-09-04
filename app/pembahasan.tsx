@@ -7,30 +7,94 @@ import {
   TextInput,
   TouchableOpacity,
   ScrollView,
+  ActivityIndicator,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
+import { useLocalSearchParams } from "expo-router";
+import Api from "@/service/Api";
 
 export default function Pembahasan() {
+  const { pembahasanData } = useLocalSearchParams(); // Ambil parameter pembahasanData
+  const [pertanyakan, setPertanyakan] = useState<string>("");
+  const [loading, setLoading] = useState(false);
+  const [jawaban, setJawaban] = useState("");
+  // Parse kembali data JSON yang dikirim sebagai string
+
+  // Decode dan parse id menjadi objek JavaScript
+  let soal = null;
+  if (typeof pembahasanData === "string") {
+    try {
+      soal = JSON.parse(decodeURIComponent(pembahasanData));
+    } catch (e) {
+      console.error("Failed to parse soal:", e);
+    }
+  } else if (Array.isArray(pembahasanData)) {
+    // Jika 'pembahasanData' adalah array, kita ambil elemen pertama
+    try {
+      soal = JSON.parse(decodeURIComponent(pembahasanData[0]));
+    } catch (e) {
+      console.error("Failed to parse soal:", e);
+    }
+  }
+
+  const handleJawab = async () => {
+    setJawaban("Loading...");
+    setLoading(true);
+    const api = new Api();
+    api.url = "artficial-intelegence/ask";
+    api.body = {
+      prompt: pertanyakan,
+    };
+    try {
+      const resp = await api.call();
+
+      // Jika respons mengandung JSON sebagai string, kita perlu mem-parsing
+      if (resp && resp.data) {
+        setJawaban(resp.data);
+        // Arahkan ke halaman pembahasan dengan data pembahasan
+
+        setLoading(false);
+      } else {
+        console.error("No data found in response");
+        setLoading(false);
+      }
+    } catch (e) {
+      console.error("API call failed:", e);
+      setLoading(false);
+    }
+  };
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.titleStyle}>Pembahasan</Text>
       <View style={styles.contentContainer}>
         <View style={styles.cardStyle}>
-          <ScrollView>
-            <Text style={styles.questionTitle}>Soal Pertama</Text>
-            <Text style={styles.questionText}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum...
-            </Text>
-          </ScrollView>
+          {pertanyakan === "" ? (
+            <ScrollView>
+              <Text style={styles.questionTitle}>Soal Pembahasan</Text>
+              <Text style={styles.questionText}>
+                <Text style={styles.boldText}>Pertanyaan: </Text>
+                {soal.pertanyaan}
+              </Text>
+
+              <Text style={styles.questionText}>
+                Jawaban Benar: {soal.benar}
+              </Text>
+              <Text style={styles.questionText}>
+                <Text style={styles.boldText}>Jawaban: </Text>{" "}
+                {soal.jawaban.key}. {soal.jawaban.text}
+              </Text>
+              {/* {renderJawaban(soal)} */}
+              <Text style={styles.questionText}>
+                <Text style={styles.boldText}>Pembahasan: </Text>
+                {soal.pembahasan}
+              </Text>
+            </ScrollView>
+          ) : (
+            <ScrollView>
+              <Text style={styles.questionText2}>{pertanyakan}</Text>
+              <Text style={styles.questionText3}>{jawaban}</Text>
+            </ScrollView>
+          )}
         </View>
       </View>
       <View style={styles.inputContainer}>
@@ -41,8 +105,14 @@ export default function Pembahasan() {
           <TextInput
             placeholder="Silahkan Masukkan Pertanyaan Anda"
             style={styles.textInput}
+            value={pertanyakan}
+            onChangeText={(text) => setPertanyakan(text)}
           />
-          <TouchableOpacity style={styles.submitButton}>
+          <TouchableOpacity
+            style={styles.submitButton}
+            onPress={() => handleJawab()}
+          >
+            {loading && <ActivityIndicator />}
             <Text style={styles.submitButtonText}>Kirim</Text>
           </TouchableOpacity>
         </View>
@@ -91,6 +161,32 @@ const styles = StyleSheet.create({
     fontSize: 12,
     textAlign: "justify",
   },
+  questionText2: {
+    fontFamily: "Poppins-Regular",
+    fontSize: 12,
+    textAlign: "justify",
+    backgroundColor: "#26E467",
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    marginBottom: 10,
+  },
+  questionText3: {
+    fontFamily: "Poppins-Regular",
+    fontSize: 12,
+    textAlign: "justify",
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    marginBottom: 10,
+    borderColor: "black",
+    borderWidth: 0.5,
+  },
+  boldText: {
+    fontFamily: "Poppins-Bold",
+    fontSize: 12,
+    textAlign: "justify",
+  },
   inputContainer: {
     padding: 20,
     gap: 8,
@@ -119,6 +215,9 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 8,
     borderRadius: 4,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
   },
   submitButtonText: {
     fontFamily: "Poppins-SemiBold",

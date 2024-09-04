@@ -7,15 +7,19 @@ import {
   StatusBar,
   ScrollView,
   TouchableOpacity,
+  ActivityIndicator,
 } from "react-native";
 import materiData from "../materi.json"; // Pastikan path file sesuai
-import { Link, useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
+import Api from "@/service/Api";
 
 interface SelectedAnswers {
   [key: string]: string;
 }
 
 export default function Soal() {
+  const router = useRouter();
+  const [loading, setLoading] = useState(false);
   let { id } = useLocalSearchParams();
   if (Array.isArray(id)) {
     id = id[0];
@@ -24,7 +28,6 @@ export default function Soal() {
 
   const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswers>({});
   const [submitted, setSubmitted] = useState(false);
-
   if (!materi) {
     return (
       <SafeAreaView style={styles.container}>
@@ -44,6 +47,38 @@ export default function Soal() {
 
   const handleSubmit = () => {
     setSubmitted(true);
+  };
+
+  const handlePembahasan = async (soal: any) => {
+    setLoading(true);
+    const api = new Api();
+    api.url = "artficial-intelegence/ask";
+    api.body = {
+      prompt: `Saya memiliki pertanyaan berikut: "${soal.pertanyaan}". Jawaban yang benar adalah "${soal.kunciJawaban}". Berikut adalah opsi jawabannya: ${soal.opsi.map((o: any) => `(${o.key}) ${o.teks}`).join(", ")}. Saya ingin Anda memberikan penjelasan secara detail dalam format JSON seperti ini: { "pertanyaan": "${soal.pertanyaan}", "jawaban": " jawabnnya pilih dari opsi yang benar serta tampilkan key nya dan text nya", "pembahasan": "Pembahasan detail berdasarkan soal tersebut" }.`,
+    };
+    try {
+      const resp = await api.call();
+
+      // Jika respons mengandung JSON sebagai string, kita perlu mem-parsing
+      if (resp && resp.data) {
+        const parsedData = JSON.parse(resp.data); // Parse string JSON menjadi objek
+
+        // Arahkan ke halaman pembahasan dengan data pembahasan
+        router.push({
+          pathname: "/pembahasan", // Ganti dengan nama file pembahasan yang benar
+          params: {
+            pembahasanData: JSON.stringify(parsedData), // Kirim data sebagai string JSON
+          },
+        });
+        setLoading(false);
+      } else {
+        console.error("No data found in response");
+        setLoading(false);
+      }
+    } catch (e) {
+      console.error("API call failed:", e);
+      setLoading(false);
+    }
   };
 
   return (
@@ -99,13 +134,30 @@ export default function Soal() {
                       {isCorrect ? "Jawaban Kamu Benar" : "Jawaban Kamu Salah"}
                     </Text>
                   </View>
-                  <Link href={"/pembahasan"} asChild>
-                    <TouchableOpacity style={styles.discussionButton}>
+                  <TouchableOpacity
+                    style={styles.discussionButton}
+                    onPress={() => handlePembahasan(soal)}
+                  >
+                    {loading ? (
+                      <View
+                        style={{
+                          flexDirection: "row",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          gap: 4,
+                        }}
+                      >
+                        <ActivityIndicator />
+                        <Text style={styles.discussionButtonText}>
+                          Lihat Pembahasan
+                        </Text>
+                      </View>
+                    ) : (
                       <Text style={styles.discussionButtonText}>
                         Lihat Pembahasan
                       </Text>
-                    </TouchableOpacity>
-                  </Link>
+                    )}
+                  </TouchableOpacity>
                 </View>
               )}
             </View>
