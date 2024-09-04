@@ -1898,6 +1898,3277 @@
                     "kunciJawaban": "C"
                 }
             ]
+        },
+        {
+            "id": 6,
+            "judul": "MASALAH-MASALAH YANG BIASA TERJADI DALAM JARINGAN KOMPUTER & SOLUSINYA",
+            "desc": "Jaringan komputer merupakan teknologi yang sangat membantu aktivitas manusia. Namun di balik segala kecanggihannya, terdapat masalah-masalah yang biasa terjadi dalam jaringan komputer. Cari tahu apa saja masalah tersebut beserta solusinya di sini! ",
+            "image": "masalahjaringan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Kegagalan Piranti Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Jaringan Gangguan akibat kegagalan piranti jaringan bisa bervariasi, mulai dari kegagalan NIC - LAN card pada sebuah komputer, kegagalan switch pada beberapa komputer, hingga kegagalan berskala luas pada switch central yang menghubungkan jaringan server."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Tidak Bisa Sharing Data",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah tidak bisa sharing data cukup sering terjadi. Penyebabnya bisa karena sharing pada komputer masih dalam mode disable, sehingga harus diaktifkan dulu dengan membuka Network > Internet Access pada bagian kanan bawah dekstop. Klik kanan pada gambar network, lalu klik Open Network and Sharing Center. Pilih mode turn on file and printer sharing > Save Changes."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Hang pada Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah hang pada komputer juga sering terjadi. Untuk menyelesaikannya Anda hanya perlu menyalakan kembali komputer Anda. Penyebab dari masalah ini karena IP yang Anda gunakan sama dengan IP komputer lainnya, sehingga Anda harus menggantinya dengan IP yang berbeda."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "judulSubBab": "Kegagalan Kabel Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini umum ditemui akibat putusnya kabel jaringan yang bisa mempengaruhi kinerja sebuah komputer dalam jaringan. Putusnya kabel antar switch (uplink cable) sehingga berdampak pada masalah jaringan pada satu blok gedung. Ada juga kegagalan backbone cable sehingga berdampak pada sebagian besar komputer dalam jaringan LAN."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "judulSubBab": "Kerusakan pada Kabel dan Konektor Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kabel dan konektor merupakan media penghubung antara komputer satu dengan komputer lainnya atau dengan peralatan lain yang digunakan untuk membentuk jaringan. Kabel dan konektor untuk membuat jaringan LAN yang banyak digunakan ada tiga jenis: Kabel UTP dengan Konektor RJ45 Gangguan pada kabel jenis ini adalah konektor yang tidak terpasang dengan baik atau longgar, susunan kabel yang salah, hingga kabel putus. Indikasi yang bisa dilihat ada pada lampu indikator yang tidak hidup pada kartu jaringan atau pada Hub/switch. Namun jaringan yang memakai kabel ini jarang terjadi kesalahan, karena menggunakan topologi star, workstation terpasang secara paralel dengan menggunakan hub/switch."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "     Kabel Coaxial dengan Konektor BNC Kabel jenis ini memiliki akses yang cukup lambat bila dibandingkan jenis lainnya dan sering terjadi gangguan karena konektor yang longgar, kabel short, dan kabel terbuka resistor pada terminating konektor. Short pada pemasangan kabel dengan plug konektor menyebabkan sistem jaringan down dan komunikasi antar komputer berhenti."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "     Kabel Serat Optik dengan Konektor SC dan ST Gangguan pada kabel dan konektor jenis serat optik sangat jarang terjadi, tapi membutuhkan penanganan secara khusus untuk perawatan jaringan. Bila terjadi kerusakan pada kabel dan konektor jaringan yang disebabkan oleh suatu hal, harus dilihat dulu apakah kabel yang digunakan masih bisa digunakan atau tidak. Jika masih bisa, maka Anda hanya perlu mengganti konektornya saja. Namun jika tidak, maka kabel dan konektor perlu diganti dengan yang baru."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "judulSubBab": "Gangguan pada Hub/Switch",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Hub/switch adalah terminal atau pembagi sinyal data bagi kartu jaringan (network card). Bila hub mengalami kerusakan, berarti seluruh jaringan juga tidak bisa berfungsi untuk berkomunikasi antar workstation atau komputer workstation dengan server. Kerusakan bisa dilihat pada lampu indikator power dan lampu indikator untuk masing-masing workstation. Bila lampu indikator power hub mati, berarti kemungkinannya hub tersebut rusak. Bila ada lampu indikator workstation yang mati, tandanya komputer workstation sedang tidak aktif atau ada gangguan. Jika memang terjadi kerusakan pada hub dan sudah tidak bisa digunakan, maka solusinya harus diganti dengan yang baru atau memperbaikinya di tempat service khusus."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "judulSubBab": "Ledakan Virus",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini terjadi karena sistem jaringan Anda akan mendapatkan traffic yang overload dari pengaruh virus yang menyerang sistem server dan menulari semua komputer dalam jaringan. Akibatnya kinerja sistem jaringan menjadi sangat lambat. Solusinya untuk menangkal serangan virus ini adalah dengan menerapkan best practice security policy, tapi pastikan terlebih dulu pertahanan sistem Anda sudah sangat kebal."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "judulSubBab": "Kegagalan Sistem",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kegagalan sistem bisa terjadi karena adanya masalah pada DHCP server Anda sehingga client tidak menerima IP address. Bisa juga karena ada masalah dengan sistem Directory Services Anda sehingga client tidak bisa log on ke jaringan. Penyebab lainnya adalah adanya masalah dengan register nama pada sistem DNS Anda."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "judulSubBab": "Koneksi Putus-putus",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Koneksi yang terputus-putus bisa disebabkan kualitas jaringan telepon yang menurun dan suara telepon yang bergemerisik atau adanya dengung. Solusinya yaitu dengan mengecek seluruh kabel rumah Anda dari KTB hingga modem. Jika terjadi masalah, Anda bisa langsung melapor kepada perusahaan telepon yang berwenang."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "judulSubBab": "Masalah pada Network Connection",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah yang terdapat pada Network Connection terletak pada nomor IP, gateway, dan lainnya yang blank. Bisa juga status jaringan tersambung dan masih bisa mengakses data jaringan via IPX/SPX/NetBIOS, tapi nomor IP tidak ada yang membuat akses internet mati."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "judulSubBab": "Komputer Tidak Terdeteksi oleh Komputer Lain",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini sering terjadi diakibatkan alamat yang digunakan dan IP yang kosong. Solusinya adalah dengan mengganti IP address agar bisa terdeteksi oleh komputer lain. Bisa juga dengan mengecek apakah komputer Anda bisa tersambung dengan komputer orang lain. Caranya adalah dengan klik Start > ketik “ping IP address”. Bila muncul balasan Reply From …. (IP address komputer lain), artinya komputer Anda sudah tersambung dengan baik. Namun jika muncul Request Time Out, maka komputer Anda tidak bisa tersambung dengan komputer lain."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "judulSubBab": "Koneksi Lambat",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Adanya permasalahan koneksi lambat bisa disebabkan oleh banyaknya PC yang disharing. Bisa juga dikarenakan aktivitas klien-klien PC yang sedang mengunduh atau upload malware (virus, Trojan, Spyware) yang menghabiskan bandwidth Anda. Solusinya adalah gunakan bandwidth management, antivirus, atau anti Spyware. Solusi lainnya adalah dengan menambah kecepatan koneksi internet. Anda bisa coba cara simpel dengan menonaktifkan loading gambar pada browser atau menggunakan software."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Sistem yang bertugas mengatur semua perangkat lunak dan keras dalam sebuah komputer sehingga dapat digunakan oleh user disebut sebagai …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Sistem Operasi"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Sistem Komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Sistem Manajemen"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Sistem Pengaturan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Sistem Operasional"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Berapa kecepatan akses data pada access point yang memiliki standar kode IEEE 802.11g …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "11Mb/s"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "54Mb/s"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "108Mb/s"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "216Mb/s"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "432Mb/s"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Berapa kecepatan akses data pada access point yang memiliki standar kode IEEE 802.11b …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "11Mb/s"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "54Mb/s"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "108Mb/s"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "216Mb/s"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "432Mb/s"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Berapa frekuensi antena pada sebuah access point (WiFi)…. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "2.4Ghz"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "3.1Ghz"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "1.9Ghz"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "5.2Ghz"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "4.2Ghz"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Teks perintah untuk melihat tabel routing pada Windows adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "route –n"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "route –a"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "route PRINT"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "route –D"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "route –t"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Teks perintah untuk memeriksa IP address yang kita miliki di Linux adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "config"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "setconfig"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "read config"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "ipconfig"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "ifconfig"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Teks perintah untuk memeriksa IP address yang kita miliki di Windows adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "config"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "setconfig"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "read config"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "ipconfig"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "ifconfig"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Teks perintah untuk memeriksa apakah koneksi jaringan kita sudah terhubung ke depdiknas.org adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "ls depdiknas.org"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "vi depdiknas.org"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "cp depdiknas.org"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "ping depdiknas.org"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "install depdiknas.org"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Salah satu aplikasi proxy server di sistem operasi Linux adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Squid"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Postfix"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Squirrel"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Apache"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Postgres"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Perangkat yang berfungsi mengatur pemilihan jalur terbaik untuk dilewati paket data dikenal sebagai …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Switch"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Router"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Web server"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Proxy server"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Name server"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "judul": "MASALAH-MASALAH YANG BIASA TERJADI DALAM JARINGAN KOMPUTER & SOLUSINYA",
+            "desc": "Jaringan komputer merupakan teknologi yang sangat membantu aktivitas manusia. Namun di balik segala kecanggihannya, terdapat masalah-masalah yang biasa terjadi dalam jaringan komputer. Cari tahu apa saja masalah tersebut beserta solusinya di sini!",
+            "image": "masalahjaringan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Kegagalan Piranti Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Gangguan akibat kegagalan piranti jaringan bisa bervariasi, mulai dari kegagalan NIC - LAN card pada sebuah komputer, kegagalan switch pada beberapa komputer, hingga kegagalan berskala luas pada switch central yang menghubungkan jaringan server. Untuk kegagalan LAN card di salah satu komputer solusinya adalah dengan menggantinya dengan network card cadangan."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Tidak Bisa Sharing Data",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah tidak bisa sharing data cukup sering terjadi. Penyebabnya bisa karena sharing pada komputer masih dalam mode disable, sehingga harus diaktifkan dulu dengan membuka Network > Internet Access pada bagian kanan bawah dekstop. Klik kanan pada gambar network, lalu klik Open Network and Sharing Center. Pilih mode turn on file and printer sharing > Save Changes."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Hang pada Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah hang pada komputer juga sering terjadi. Untuk menyelesaikannya Anda hanya perlu menyalakan kembali komputer Anda. Penyebab dari masalah ini karena IP yang Anda gunakan sama dengan IP komputer lainnya, sehingga Anda harus menggantinya dengan IP yang berbeda."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "judulSubBab": "Kegagalan Kabel Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini umum ditemui akibat putusnya kabel jaringan yang bisa mempengaruhi kinerja sebuah komputer dalam jaringan. Putusnya kabel antar switch (uplink cable) sehingga berdampak pada masalah jaringan pada satu blok gedung. Ada juga kegagalan backbone cable sehingga berdampak pada sebagian besar komputer dalam jaringan LAN."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "judulSubBab": "Kerusakan pada Kabel dan Konektor Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kabel dan konektor merupakan media penghubung antara komputer satu dengan komputer lainnya atau dengan peralatan lain yang digunakan untuk membentuk jaringan. Kabel dan konektor untuk membuat jaringan LAN yang banyak digunakan ada tiga jenis:"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "     • Kabel UTP dengan Konektor RJ45: Gangguan pada kabel jenis ini adalah konektor yang tidak terpasang dengan baik atau longgar, susunan kabel yang salah, hingga kabel putus. Indikasi yang bisa dilihat ada pada lampu indikator yang tidak hidup pada kartu jaringan atau pada Hub/switch. Namun jaringan yang memakai kabel ini jarang terjadi kesalahan, karena menggunakan topologi star, workstation terpasang secara paralel dengan menggunakan hub/switch."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "     • Kabel Coaxial dengan Konektor BNC: Kabel jenis ini memiliki akses yang cukup lambat bila dibandingkan jenis lainnya dan sering terjadi gangguan karena konektor yang longgar, kabel short, dan kabel terbuka resistor pada terminating konektor. Short pada pemasangan kabel dengan plug konektor menyebabkan sistem jaringan down dan komunikasi antar komputer berhenti."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "     • Kabel Serat Optik dengan Konektor SC dan ST: Gangguan pada kabel dan konektor jenis serat optik sangat jarang terjadi, tapi membutuhkan penanganan secara khusus untuk perawatan jaringan. Bila terjadi kerusakan pada kabel dan konektor jaringan yang disebabkan oleh suatu hal, harus dilihat dulu apakah kabel yang digunakan masih bisa digunakan atau tidak. Jika masih bisa, maka Anda hanya perlu mengganti konektornya saja. Namun jika tidak, maka kabel dan konektor perlu diganti dengan yang baru."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "judulSubBab": "Gangguan pada Hub/Switch",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Hub/switch adalah terminal atau pembagi sinyal data bagi kartu jaringan (network card). Bila hub mengalami kerusakan, berarti seluruh jaringan juga tidak bisa berfungsi untuk berkomunikasi antar workstation atau komputer workstation dengan server. Kerusakan bisa dilihat pada lampu indikator power dan lampu indikator untuk masing-masing workstation. Bila lampu indikator power hub mati, berarti kemungkinannya hub tersebut rusak. Bila ada lampu indikator workstation yang mati, tandanya komputer workstation sedang tidak aktif atau ada gangguan. Jika memang terjadi kerusakan pada hub dan sudah tidak bisa digunakan, maka solusinya harus diganti dengan yang baru atau memperbaikinya di tempat service khusus."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "judulSubBab": "Ledakan Virus",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini terjadi karena sistem jaringan Anda akan mendapatkan traffic yang overload dari pengaruh virus yang menyerang sistem server dan menulari semua komputer dalam jaringan. Akibatnya kinerja sistem jaringan menjadi sangat lambat. Solusinya untuk menangkal serangan virus ini adalah dengan menerapkan best practice security policy, tapi pastikan terlebih dulu pertahanan sistem Anda sudah sangat kebal."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "judulSubBab": "Kegagalan Sistem",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kegagalan sistem bisa terjadi karena adanya masalah pada DHCP server Anda sehingga client tidak menerima IP address. Bisa juga karena ada masalah dengan sistem Directory Services Anda sehingga client tidak bisa log on ke jaringan. Penyebab lainnya adalah adanya masalah dengan register nama pada sistem DNS Anda."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "judulSubBab": "Koneksi Putus-putus",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Koneksi yang terputus-putus bisa disebabkan kualitas jaringan telepon yang menurun dan suara telepon yang bergemerisik atau adanya dengung. Solusinya yaitu dengan mengecek seluruh kabel rumah Anda dari KTB hingga modem. Jika terjadi masalah, Anda bisa langsung melapor kepada perusahaan telepon yang berwenang."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "judulSubBab": "Masalah pada Network Connection",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah yang terdapat pada Network Connection terletak pada nomor IP, gateway, dan lainnya yang blank. Bisa juga status jaringan tersambung dan masih bisa mengakses data jaringan via IPX/SPX/NetBIOS, tapi nomor IP tidak ada yang membuat akses internet mati."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "judulSubBab": "Komputer Tidak Terdeteksi oleh Komputer Lain",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Masalah ini sering terjadi diakibatkan alamat yang digunakan dan IP yang kosong. Solusinya adalah dengan mengganti IP address agar bisa terdeteksi oleh komputer lain. Bisa juga dengan mengecek apakah komputer Anda bisa tersambung dengan komputer orang lain. Caranya adalah dengan klik Start > ketik “ping IP address”. Bila muncul balasan Reply From …. (IP address komputer lain), artinya komputer Anda sudah tersambung dengan baik. Namun jika muncul Request Time Out, maka komputer Anda tidak bisa tersambung dengan komputer lain."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "judulSubBab": "Koneksi Lambat",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Adanya permasalahan koneksi lambat bisa disebabkan oleh banyaknya PC yang disharing. Bisa juga dikarenakan aktivitas klien-klien PC yang sedang mengunduh atau upload malware (virus, Trojan, Spyware) yang menghabiskan bandwidth Anda. Solusinya adalah gunakan bandwidth management, antivirus, atau anti Spyware. Solusi lainnya adalah dengan menambah kecepatan koneksi internet. Anda bisa coba cara simpel dengan menonaktifkan loading gambar pada browser atau menggunakan software."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Tata cara atau peraturan yang disepakati secara internasional agar sebuah komputer bisa berkomunikasi dengan komputer lainnya disebut …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Proxy"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Protocol"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Prosedur"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Proposal"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Program"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Software utiliti yang bekerja pada komputer dan didesain untuk memberikan IP Address ke komputer disebut …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "DNS"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Gateway"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Protokol"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "DHCP"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Ipconfig"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Suatu sistem yang memungkinkan nama suatu host pada jaringan komputer atau internet ditranslasikan menjadi IP address disebut …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "DNS"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Gateway"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Protokol"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "DHCP"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Ipconfig"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Untuk membuat berbagi pakai koneksi internet (internet connection sharing), minimal komputer yang diperlukan sebanyak …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "1"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "2"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "3"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "4"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "5"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Dalam konfigurasi berbagi pakai koneksi internet (internet connection sharing), IP Address komputer client yang digunakan dimulai pada alamat …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "192.168.0.1"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "192.168.0.2"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "10.0.0.1"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "127.0.0.1"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "202.15.0.1"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Dalam konfigurasi berbagi pakai koneksi internet (internet connection sharing), komputer yang tersambung dengan internet akan berfungsi sebagai …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "client"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "server / gateway"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "dump"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "switch"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "router"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Istilah ttl dalam perintah ping dimaksudkan …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Time to loose"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Time to live"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Time to leave"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Time to lost"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Time to lie"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Perintah untuk mengetahui jalur / rute suatu domain komputer / website menggunakan pada system operasi Ms.Windows XP adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "ping"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "traceroute"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "tracert"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "ipconfig"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "ifconfig"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Perintah untuk mengetahui jalur / rute suatu domain komputer / website menggunakan pada system Linux adalah …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "ping"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "traceroute"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "tracert"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "ipconfig"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "ifconfig"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Sistem yang bertugas mengatur semua perangkat lunak dan keras dalam sebuah komputer sehingga dapat digunakan oleh user disebut sebagai …. ",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Sistem Operasi"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Sistem Komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Sistem Manajemen"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Sistem Pengaturan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Sistem Operasional"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "judul": "PERAWATAN JARINGAN LOKAL PADA ADMINISTRASI SISTEM JARINGAN",
+            "desc": "Perawatan jaringan lokal sangat penting dalam administrasi sistem jaringan untuk memastikan semua perangkat, baik server, client, kabel jaringan, konektor, hingga switch/hub, bekerja dengan baik dan terhindar dari masalah. Setiap komponen memiliki prosedur perawatan tersendiri yang harus diperhatikan agar jaringan tetap stabil dan fungsional.",
+            "image": "merawatjaringan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Server",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Server sebagai komputer pusat yang bekerja secara terus menerus untuk melayani semua komputer client yang terhubung ke server. Hal ini membuat server juga harus diperhatikan dalam perawatan. Perawatan pada server dengan data-data yang tersimpan secara terpusat di server agar dapat dikelola dengan baik. Lakukan backup data pada server secara berkala. Selain perawatan data, server juga sebaiknya terdiri dari dua unit yaitu server utama dan server pengganti, karena server biasanya berhenti tanpa henti 24 jam, sehingga sewaktu-waktu apabila terjadi kerusakan atau perawatan, server pengganti akan dipasang untuk menggantikan server utama."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Client",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Tidak seperti server, jika salah satu client rusak, sama sekali tidak berpengaruh pada semua client dalam jaringan. Meski demikian, client juga harus diberikan perawatan, seperti membersihkan bagian dalam CPU dari debu, membersihkan virus dan mengecek komponen lainnya."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Kabel Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Jalur komunikasi pada jaringan lokal selain wireless adalah menggunakan kabel, jadi kabel harus diperhatikan secara rutin keberadaannya. Misalnya, mengatur posisi letak kabel jaringan, apakah sering dilalui tikus atau tidak, karena tikus suka sekali memakan kabel. Kalau sering dilalui tikus, sebaiknya pasang jebakan tikus dengan tujuan mengusir tikus yang lewat."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "judulSubBab": "Konektor RJ45",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Konektor sebagai penghubung antara kabel dengan kartu jaringan (LAN card/Network card) juga harus diberikan perawatan. Yang perlu diperhatikan yaitu membersihkan pin kuningan di setiap konektor. Untuk membersihkan pin konektor bisa menggunakan ampelas atau dengan peniti untuk membersihkan jamur-jamur yang tumbuh di sela tempat pin berada, setelah itu disikat menggunakan sikat."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "judulSubBab": "Switch/Hub",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Selain server sebagai tempat pengolahan data, hub juga sangat penting, karena apabila hub mengalami masalah, maka komputer yang terhubung ke jaringan melalui hub tersebut ikut bermasalah dan tidak dapat berkomunikasi dengan baik dengan komputer yang lain. Tempatkan hub di ruangan yang bersuhu tidak terlalu panas, bersihkan bagian luar casing hub dari debu agar debu tidak masuk terlalu banyak."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Penyebab utama driver kartu jaringan tidak bisa terinstal ke dalam PC adalah….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kesalahan service network"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Driver tidak kompatibel dengan sistem operasinya"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kesalahan seting konfigurasi jaringan"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kesalahan protocol yang digunakan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kesalahan pengalamatan IP"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Masalah yang terjadi pada komputer yang tidak bisa terhubung ke internet yaitu….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kabel LAN longgar"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Harddisk rusak"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Tidak ada software browsing"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kabel putus"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua benar"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Alat yang berguna untuk mengecek kabel LAN adalah….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Tang Krimping"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "USB Tester"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "LAN Tester"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Tang cucut"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua benar"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Kerusakan yang sering terjadi pada jaringan menggunakan kabel UTP adalah….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kabel terputus"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "HUB tidak menyala"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Router tidak bekerja dengan baik"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Listrik padam"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua benar"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Setiap komputer dalam suatu jaringan merupakan identifikasi alamat yang unik, sehingga tidak dibolehkan ada alamat yang sama, biasanya kesalahan pada….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kesalahan service network"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kesalahan security system"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kesalahan seting konfigurasi jaringan"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kesalahan protocol yang digunakan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kesalahan pengalamatan IP"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Kesalahan pemasukan password pada saat kita masuk dalam jaringan sehingga kita tidak dapat masuk dalam jaringan, biasanya kesalahan pada….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kesalahan pengalamatan IP"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kesalahan security system"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kesalahan identifikasi client dan server komputer"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kesalahan service network"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kerusakan file program, sehingga perlu di-update"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Penyebab dari adanya icon network connection tapi silang merah, yaitu….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Pada pilihan show icon belum dipilih / di checklist"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Jaringan secara fisik tidak terhubung ke komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Terjadi IP conflict"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Server gagal memberikan IP ke network"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Network di-disable"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Perangkat keras yang digunakan untuk menyatukan kabel-kabel network dari tiap-tiap workstation atau perangkat lainnya dalam jaringan disebut….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Concentrator"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "LAN Card"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Modem"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "USB"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Wireless"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Dalam konfigurasi berbagi pakai koneksi internet (internet connection sharing), komputer yang tersambung dengan internet akan berfungsi sebagai….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Client"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Dump"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Router"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Switch"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Server / Gateway"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Permasalahan yang sering muncul baik dalam pemasangan maupun setelah pemasangan jaringan LAN komputer yang lebih spesifik adalah….",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kerusakan atau kesalahan hardware"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kerusakan penkabelan"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kerusakan konektor"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kerusakan jaringan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kerusakan server"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "judul": "MELAKUKAN PERBAIKAN DAN ATAU SETTING ULANG KONEKSI JARINGAN",
+            "desc": "Mempersiapkan Perbaikan Konektifitas Jaringan pada PC yang Bermasalah",
+            "image": "perbaikanjaringan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Persiapan Perbaikan Konektivitas pada Jaringan dengan Topologi Bus",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Merupakan topologi fisik yang menggunakan kabel Coaxial dengan menggunakan T-Connector dengan terminator 50 ohm pada ujung jaringan. Topologi bus menggunakan satu kabel yang kedua ujungnya ditutup serta sepanjang kabel terdapat node-node."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Karakteristik Topologi Bus"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "• Merupakan satu kabel yang kedua ujungnya ditutup dimana sepanjang kabel terdapat node-node."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Paling prevevalent karena sederhana dalam instalasi."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Permasalahan terbesar jika terjadi putus atau longgar pada salah satu konektor maka seluruh jaringan akan berhenti."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. Peralatan untuk Topologi Bus"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "a. Kartu Jaringan (Network Interface Card/ LAN Card)"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "b. Kabel dan konektor (Kabel Coaxial dan konektor BNC)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Persiapan Perbaikan Konektivitas pada Jaringan dengan Topologi Star",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Topologi Star adalah topologi di mana setiap node akan menuju node pusat/sentral sebagai konselor. Aliran data akan menuju node pusat baru menuju ke node tujuan."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Karakteristik Topologi Star"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "• Setiap node berkomunikasi langsung dengan central node."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Mudah dikembangkan karena setiap node hanya memiliki kabel yang langsung terhubung ke central node."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Jika terjadi kerusakan pada salah satu node, maka hanya node tersebut yang terganggu."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. Peralatan untuk Topologi Star"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "a. Kartu Jaringan (Network Interface Card/ LAN Card)"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "b. Kabel dan konektor (Kabel UTP dan konektor RJ45)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Pemasangan dan Perbaikan Konektivitas Jaringan pada PC",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Perbaikan konektifitas jaringan melalui beberapa tahap yakni: pemasangan kartu jaringan (LAN Card), pemasangan kabel pada konektor, dan setting konfigurasi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Tahap Perbaikan Konektivitas Jaringan"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "• Pemasangan Kartu Jaringan (LAN Card) pada Motherboard"
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Pemasangan Kabel Coaxial dan Konektor BNC (Topologi Bus)"
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Pemasangan Kabel UTP dan Konektor RJ 45 (Topologi Star)"
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "• Setting konfigurasi (penginstalan driver, pemilihan protocol, pengisian IP Address, subnet mask, dan workgroup)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "HotSpot bisa membuat antrian dinamis pada user login untuk melakukan keterbatasan kecepatan.",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Benar"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Salah"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Ragu"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Mungkin"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Tidak pasti"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Prioritas antrian tertinggi adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "1"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "3"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "5"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "7"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "9"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Fitur proxy MikroTik adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Caching HTTP"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "FTP caching"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Caching SMTP"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Caching POP3"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Penyaringan nama DNS"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Mengkonfigurasi HotSpot dimungkinkan pada MikroTikRouterOS hanya dengan antarmuka nirkabel.",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Ya"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Tidak"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Ragu"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Tidak jelas"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Mungkin"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Kerusakan yang sering terjadi pada jaringan menggunakan kabel UTP adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kabel terputus"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "HUB tidak menyala"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Router tidak bekerja dengan baik"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Listrik padam"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua benar"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Setiap komputer dalam suatu jaringan merupakan identifikasi alamat yang unik, sehingga tidak diperbolehkan ada alamat yang sama, biasanya kesalahan pada....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kesalahan service network"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kesalahan security system"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kesalahan seting konfigurasi jaringan"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kesalahan protocol yang digunakan"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kesalahan pengalamatan IP"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Kesalahan pemasukan password pada saat kita masuk dalam jaringan sehingga kita tidak dapat masuk dalam jaringan, biasanya kesalahan pada....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kesalahan pengalamatan IP"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kesalahan security system"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kesalahan identifikasi client dan server komputer"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kesalahan service network"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kerusakan file program, sehingga perlu di-update"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Penyebab dari adanya icon network connection tapi silang merah, yaitu....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Pada pilihan show icon belum dipilih / di-checklist"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Jaringan secara fisik tidak terhubung ke komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Terjadi IP conflict"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Server gagal memberikan IP ke network"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Network di-disable"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Perangkat keras yang digunakan untuk menyatukan kabel-kabel network dari tiap-tiap workstation atau perangkat lainnya dalam jaringan disebut....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Concentrator"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "LAN Card"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Modem"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "USB"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Wireless"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Dalam konfigurasi berbagi pakai koneksi internet (internet connection sharing), komputer yang tersambung dengan internet akan berfungsi sebagai....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Client"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Dump"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Router"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Switch"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Server / Gateway"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "judul": "MERAWAT KOMPUTER",
+            "desc": "Perawatan komputer mencakup perawatan perangkat keras (yaitu komputer beserta periferal pendukungnya) dan perawatan perangkat lunak (program dan data).",
+            "image": "merawat",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Penyebab yang Harus Dihindari dan Pengaruhnya Terhadap Fungsi Kerja Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Debu: Debu yang terletak di luar komputer tidak terlalu serius akibatnya, namun debu yang terletak di dalam komputer atau di dalam periferal komputer dapat menyebabkan kerusakan, misalnya menyebabkan hubung singkat antar komponen dalam motherboard komputer dan rangkaian dalam perangkat periferal lainnya."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "2. Panas: Panas yang berlebihan pada prosesor dan memori akan menyebabkan fungsi sistem menjadi terganggu dan mengurangi usia komponen."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "3. Medan Elektromagnet: Medan elektromagnet akan mengacaukan fungsi komputer, merusak data dalam media penyimpan magnetis (misalnya harddisk), dan merusak tampilan pada layar monitor."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "4. Elektrostatis: Muatan elektrostatis dapat menghasilkan tegangan elektrostatis, jika tegangan ini sangat besar akan merusak komponen semikonduktor yang ada dalam komputer dan periferal."
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "5. Gangguan Daya Listrik: Fluktuasi yang terlalu tinggi dapat mengakibatkan kerusakan atau terganggunya fungsi kerja semikonduktor dalam komputer, misalnya mengakibatkan komputer atau periferal menjadi macet (hang), atau dapat mengakibatkan media penyimpan rusak (crash)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Peralatan yang mendukung sebuah personal komputer itu disebut dengan?",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Periferal komputer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Bagian komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Mouse"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Keyboard"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Mainboard"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Berikut adalah peralatan yang digunakan untuk membersihkan komputer, kecuali...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Cairan pembersih"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Sapu"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kuas"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kain kering"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Disk Clean"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Alat yang tepat untuk membersihkan mainboard dan sudut-sudut casing komputer adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Tang"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Lap kering"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Obeng"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Penyedot debu mini"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Sapu"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Kotoran berbentuk cair dibersihkan menggunakan?",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kuas"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Cairan pembersih"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Sapu"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Lap kering"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Obeng"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Kuas digunakan untuk membersih bagian komputer...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Fentilasi casing, motherboard, prosesor"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Prosesor, disk, mouse"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Fentilasi casing, prosesor, disk"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Disk, motherboard, mouse"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Prosesor, motherboard, disk"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Alat yang digunakan untuk membersihkan CD ROM atau CD RW adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Disk Cleaner"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Penyedot Debu mini"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kuas"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Cairan pembersih"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "CD Cleaner"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Fan pada hardisk berfungsi sebagai...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Membersihkan hardisk"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Mengurangi panas hardisk"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Mewarnai hardisk"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Memperbaiki hardisk"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Melengkapi hardisk"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Tool yang digunakan untuk memeriksa struktur file sistem, tabel lokasi file (file allocation table) disebut dengan...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Floppy drive"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Harddisk"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "CD ROM"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Scandisk"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Flashdisk"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Tool yang digunakan untuk mengatur struktur atau tata letak file sehingga akan mengurangi fragmentasi sebuah harddisk disebut...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Scandisk"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Disk Fragmenter"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "USB"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "PS2"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "CD ROM"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "judul": "MENGANALISIS PERMASALAHAN PADA PERANGKAT KERAS",
+            "desc": "Beberapa masalah umum pada perangkat keras dan solusi untuk mengatasinya.",
+            "image": "permasalahan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Masalah pada Perangkat Keras Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Komputer reboot sendiri atau mati. Masalah ini sering terjadi akibat processor yang overheat atau terlalu panas."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "2. Mengeluarkan bunyi beep. Bunyi beep ini biasanya terdengar jika terjadi kesalahan pada salah satu hardware yang terpasang."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "3. CPU menyala, tetapi monitor tidak menampilkan apapun. Biasanya disebabkan oleh RAM yang tidak terdeteksi atau kabel VGA yang tidak tersambung dengan baik."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "4. Komputer mati total. Ini biasanya berhubungan dengan suplai arus listrik yang tidak sampai ke komputer."
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "5. Komputer sering hang. Biasanya terjadi karena tingginya data yang diproses melebihi kemampuan processor dan RAM."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "6. Blue Screen. Disebabkan oleh kesalahan perangkat keras, software driver yang terinstall, atau bahkan virus."
+                                },
+                                {
+                                    "id": 7,
+                                    "teks": "7. Browser home page berubah sendiri. Disebabkan oleh aplikasi atau program yang terinstall tanpa disadari, biasanya saat mengakses website yang banyak iklan."
+                                },
+                                {
+                                    "id": 8,
+                                    "teks": "8. Tidak bisa terhubung dengan jaringan. Disebabkan oleh kartu jaringan (NIC) yang rusak, konfigurasi IP yang salah, atau kerusakan kabel/wireless."
+                                },
+                                {
+                                    "id": 9,
+                                    "teks": "9. Komputer bisa menyala tetapi tidak bisa masuk ke sistem operasi. Biasanya disebabkan oleh hardisk yang tidak terpasang dengan baik."
+                                },
+                                {
+                                    "id": 10,
+                                    "teks": "10. Tidak bisa online di internet. Bisa disebabkan oleh tidak adanya koneksi internet, komputer yang tidak terkoneksi ke jaringan, atau konfigurasi browser yang salah."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Sebuah komputer agar dapat dioperasionalkan, harus dilengkapi perangkat lunak atau yang dikenal sebagai...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Software"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "CPU"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Harddisk"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "RAM"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Motherboard"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Pada waktu menghidupkan komputer, layar monitor gelap dan hitam. Gejala kerusakan tersebut terdapat pada...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Power supply"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Motherboard"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "VGA card"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "LAN Card"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "RAM"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Berikut beberapa gejala yang terjadi pada motherboard, kecuali...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Melakukan pengaturan BIOS tetapi tidak muncul perubahan"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Sistem kehilangan pengaturan"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Terdapat pin yang bengkok"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Mati total"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Perangkat eksternal pada port USB tidak terdeteksi oleh sistem"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Berikut komponen-komponen komputer yang digunakan pada saat merakit personal komputer, kecuali...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Motherboard"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Printer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "RAM"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Prosesor"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "VGA"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Apabila motherboard mengalami sistem kehilangan pengaturan, solusi yang dianjurkan seorang teknisi adalah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Periksa baterai"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Pada saat BIOS setup, pastikan pilih save & exit"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Lakukan proses reset BIOS"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Rapatkan kembali pin dalam port"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua benar"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Penguraian PC yang ada menjadi tinggal komponen-komponennya saja disebut...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Mengecek PC"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Membongkar PC"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Menggunakan PC"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Merusak PC"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Merawat PC"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Tool direct X digunakan untuk mengetahui kondisi...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Harddisk"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "VGA"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Motherboard"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Prosesor"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Mainboard"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Dari pilihan di bawah ini, manakah yang paling bagus untuk game...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Intel pentium 4"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Core I3"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Core 2 duo"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "AMD"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Intel pentium 3"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Beberapa tools yang digunakan untuk mengecek komponen PC, kecuali...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Device manager"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Ekspansion card"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "BIOS"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Disk defragmenter"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Scandisk"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Camera video, camera digital, moviemaker, dll, adalah alat yang digunakan pada aplikasi...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Multimedia"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Game"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Komunikasi"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Antivirus"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Statistik"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "judul": "JARINGAN KOMPUTER",
+            "desc": "Pengertian, tujuan, manfaat, jenis, topologi, media transmisi, protokol, dan bentuk komunikasi dalam jaringan komputer.",
+            "image": "jaringan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Pengertian Jaringan Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Jaringan Komputer adalah sekelompok komputer otonom yang saling berhubungan antara satu dengan lainnya menggunakan protokol komunikasi melalui media komunikasi sehingga dapat saling berbagi informasi, program-program, penggunaan bersama perangkat keras seperti printer, harddisk, dan sebagainya."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Tujuan Membangun Jaringan Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "      Tujuan dibangunnya suatu jaringan komputer adalah membawa informasi secara tepat dan tanpa adanya kesalahan dari sisi pengirim (transmitter) menuju kesisi penerima (receiver) melalui media komunikasi."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Manfaat Jaringan Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Manfaat yang didapat dalam membangun jaringan komputer, yaitu:"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "• Sharing resources. Sharing resources bertujuan agar seluruh program, peralatan atau peripheral lainnya dapat dimanfaatkan oleh setiap orang yang ada pada jaringan komputer tanpa terpengaruh oleh lokasi maupun pengaruh dari pemakai."
+                                },
+                                {
+                                    "id": 2,
+                                    "teks": "• Media Komunikasi. Jaringan komputer memungkinkan terjadinya komunikasi antar pengguna, baik untuk teleconference maupun untuk mengirim pesan atau informasi yang penting lainnya."
+                                },
+                                {
+                                    "id": 3,
+                                    "teks": "• Integrasi Data. Jaringan komputer dapat mencegah ketergantungan pada komputer pusat, karena setiap proses data tidak harus dilakukan pada satu komputer saja, melainkan dapat didistribusikan ke tempat lainnya."
+                                },
+                                {
+                                    "id": 4,
+                                    "teks": "• Pengembangan dan Pemeliharaan. Pengembangan peralatan dapat dilakukan dengan mudah dan menghemat biaya, karena setiap pembelian komponen seperti printer, maka tidak perlu membeli printer sejumlah komputer yang ada tetapi cukup satu buah karena printer itu dapat digunakan secara bersama – sama."
+                                },
+                                {
+                                    "id": 5,
+                                    "teks": "• Keamanan Data. Sistem Jaringan Komputer dapat memberikan perlindungan terhadap data karena pemberian dan pengaturan hak akses kepada para pemakai, serta teknik perlindungan terhadap harddisk sehingga data mendapatkan perlindungan yang efektif."
+                                },
+                                {
+                                    "id": 6,
+                                    "teks": "• Sumber Daya Lebih Efisien dan Informasi Terkini. Dengan pemakaian sumber daya secara bersama – sama, akan mendapatkan hasil yang maksimal dan kualitas yang tinggi."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "judulSubBab": "Jenis Jaringan Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Berdasarkan jarak dan area kerjanya, jaringan komputer dibedakan menjadi tiga kelompok, yaitu:"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. Local Area Network (LAN). Local Area Network (LAN) merupakan jaringan milik pribadi di dalam sebuah gedung atau kampus yang berukuran sampai beberapa kilometer. LAN seringkali digunakan untuk menghubungkan komputer-komputer pribadi dan workstation dalam kantor suatu perusahaan atau pabrik-pabrik untuk memakai bersama sumberdaya (resource, misalnya printer) dan saling bertukar informasi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. Metropolitan Area Network (MAN). Metropolitan Area Network (MAN) pada dasarnya merupakan versi LAN yang berukuran lebih besar dan biasanya menggunakan teknologi yang sama dengan LAN. MAN dapat mencakup kantor-kantor perusahaan yang letaknya berdekatan atau juga sebuah kota dan dapat dimanfaatkan untuk keperluan pribadi (swasta) atau umum."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "3. Wide Area Network (WAN). Wide Area Network (WAN) jangkauannya mencakup daerah geografis yang luas, seringkali mencakup sebuah negara bahkan benua. WAN terdiri dari kumpulan mesin-mesin yang bertujuan untuk menjalankan program-program (aplikasi) pemakai."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "judulSubBab": "Topologi Jaringan Komputer",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Topologi merupakan suatu pola hubungan antara terminal dalam jaringan komputer. Pola ini sangat erat kaitannya dengan metode akses dan media pengiriman yang digunakan."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "judulSubBab": "Bentuk Komunikasi Data",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Bentuk komunikasi data adalah pola komunikasi yang terjadi antara perangkat dalam jaringan komputer, mencakup jenis dan sifat dari komunikasi tersebut."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "judulSubBab": "Media Transmisi Data",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Media transmisi data adalah sarana yang digunakan untuk mengirimkan data dari satu perangkat ke perangkat lain dalam jaringan komputer."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "judulSubBab": "Protokol",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Protokol adalah sebuah aturan yang mendefinisikan beberapa fungsi yang ada dalam sebuah jaringan komputer, misalnya mengirim pesan, data, informasi dan fungsi lain yang harus dipenuhi oleh sisi pengirim (transmitter) dan sisi penerima (receiver) agar komunikasi berlangsung dengan benar."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Peer to peer merupakan jenis jaringan…",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Jaringan PAN"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Jaringan LAN"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Jaringan WPAN"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Jaringan WAN"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Jaringan MAN"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Apakah kepanjangan dari WAN?",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Wireless Areas Networking"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Wide Area Network"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "West An Nail"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Wifi A N"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Wedding At Nose"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Dibawah ini yang merupakan macam-macam topologi jaringan komputer, kecuali?",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Topologi Bus"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Topologi Tree"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Topologi Ring"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Topologi Free"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Topologi Star"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Apa yang dimaksud dengan (PAN)?",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Jaringan komputer yang digunakan untuk komunikasi antara komputer perangkat (termasuk telepon dan asisten pribadi digital) dekat dengan 1 orang"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Hubungan antara dua sistem atau lebih"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Alat untuk mengetahui detak jantung (kekuatan gempa)"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Komputer yang diciptakan untuk mengelola jenis data kuantitatif berupa angka, huruf, dan tanda baca"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Komputer yang mampu mengelola proses pengelolaan data skala besar"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Jaringan yang bisa berfungsi sebagai client dan bisa berfungsi sebagai server disebut dengan jaringan...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Peer to peer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Client server"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "LAN"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "MAN"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "PAN"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Salah satu komputer dapat melayani, dan komputer yang lain sebagai client disebut sebagai jaringan...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Peer to peer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Client server"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "LAN"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "MAN"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "PAN"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Berikut ini adalah Topologi jaringan yang menggunakan Hub sebagai pusat transmisi data, yaitu...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Topologi Star"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Topologi Bus"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Peer-to-peer"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Topologi Ring"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Topologi Ton"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Pemasangan kabel UTP dengan cara Straight digunakan untuk menghubungkan jenis perangkat yang...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Sejaringan"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Berbeda Tingkat"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Berbeda Bentuk"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Setara"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Sejajar"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Untuk mengetahui apakah komputer dalam jaringan sudah terhubung dengan komputer lain, digunakan perintah...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Ping"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Command prompt"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Ipconfig"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Cmd"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Pong"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Komputer berjumlah banyak yang terpisah-pisah akan tetapi saling berhubungan dalam melaksanakan tugasnya merupakan pengertian dari...",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Jaringan komputer"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Sistem komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Jaringan dasar"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Manajemen komputer"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Manajemen trouble"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "judul": "PENGALAMATAN DASAR JARINGAN KOMPUTER",
+            "desc": "Pengertian, jenis, dan kelas IP address serta soal-soal terkait pengalamatan jaringan.",
+            "image": "pengelamatan",
+            "subBab": [
+                {
+                    "id": 1,
+                    "judulSubBab": "Pengertian IP Address",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     IP address (internet protocol) adalah alamat logika yang diberikan kepada perangkat jaringan yang menggunakan protokol TCP/IP, di mana protokol TCP/IP digunakan untuk meneruskan paket informasi (routing) dalam jaringan LAN, MAN, WAN, dan internet. Singkatnya, IP address adalah alamat unik dari suatu perangkat jaringan yang terdapat di dalam jaringan."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "judulSubBab": "Jenis-Jenis Versi Pengalamatan Jaringan",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "Saat ini ada 2 versi IP address yaitu:"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "1. IP versi 4 (IPv4). IPv4 ini menggunakan penomoran 32-bit dan terdiri dari 4 oktet desimal. IPv4 dibuat pada tahun 1983 dan masih digunakan sampai saat ini. Contoh pengalamatan IPv4: 202.134.64.139."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "2. IP versi 6 (IPv6). IPv6 menggunakan penomoran 128-bit. Dalam IPv6, alamat 128-bit akan dibagi ke dalam blok berukuran 16-bit, yang akan dikonversikan ke dalam bilangan heksadesimal berukuran 4 digit. Setiap blok bilangan heksadesimal dipisahkan dengan tanda titik dua (:). Contoh pengalamatan IPv6: 21DA:00D3:2F3B:02AA:00FF:FE28:9C5A."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "3. Kelas IP versi 4 (IPv4). Dalam IPv4, alamat IP address dibagi menjadi 5 kelas yaitu: Kelas A, Kelas B, Kelas C, Kelas D, dan Kelas E."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "judulSubBab": "Kelas-Kelas IP Address",
+                    "konten": [
+                        {
+                            "id": 1,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kelas A: IP address kelas A memiliki rentang alamat 1.0.0.0–126.255.255.255 dengan subnetmask default 255.0.0.0. Default maksimal host: 16.777.214 host. Secara default, 8-bit pertama digunakan untuk alamat network dan 24-bit berikutnya untuk alamat host."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kelas B: IP address kelas B memiliki rentang alamat 128.0.0.0–191.255.255.255 dengan subnetmask default 255.255.0.0. Default maksimal host: 65.534 host. Secara default, 16-bit pertama digunakan untuk alamat network dan 16-bit berikutnya untuk alamat host."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kelas C: IP address kelas C memiliki rentang alamat 192.0.0.0–223.255.255.255 dengan subnetmask default 255.255.255.0. Default maksimal host: 256 host. Secara default, 24-bit pertama digunakan untuk alamat network dan 8-bit berikutnya untuk alamat host."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kelas D: IP address kelas D memiliki rentang alamat 224.0.0.0–239.255.255.255. 4 bit pertama alamat kelas D selalu diatur ke nilai biner 1110. Kelas D digunakan sebagai alamat multicasting yaitu alamat yang digunakan untuk menyampaikan satu paket ke banyak penerima."
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "tipe": "paragraf",
+                            "isi": [
+                                {
+                                    "id": 1,
+                                    "teks": "     Kelas E: IP address kelas E memiliki rentang alamat 240.0.0.0–254.255.255.255. 4 bit pertama kelas E selalu diatur ke nilai biner 1111. Alamat IP address kelas E disediakan sebagai alamat yang bersifat “eksperimental” atau percobaan yang dicadangkan untuk digunakan pada masa depan."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "soal": [
+                {
+                    "id": 1,
+                    "pertanyaan": "Jenis IP address untuk jaringan berukuran kecil untuk Local Area Network adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Kelas A"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kelas B"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Kelas C"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Kelas D"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Kelas A dan B"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 2,
+                    "pertanyaan": "Tujuan dibentuknya workgroup adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Mempermudah pengalamatan IP"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Mempermudah transfer data"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Mempermudah sharing data"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Mempermudah koneksi internet"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Mempermudah menelepon"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 3,
+                    "pertanyaan": "Fungsi dari tang Crimping pada pemasangan kabel UTP adalah ....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Memotong kabel"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Meratakan kabel"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Mengunci konektor"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Menyambung kabel dengan kabel lainnya"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Semua jawaban benar"
+                        }
+                    ],
+                    "kunciJawaban": "C"
+                },
+                {
+                    "id": 4,
+                    "pertanyaan": "Pada pemasangan kabel straight, pin yang digunakan untuk mengirim (transferring) data adalah ....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "1 dan 2"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "6 dan 8"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "4 dan 5"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "3 dan 6"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "4 dan 8"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 5,
+                    "pertanyaan": "Untuk mengetahui koneksi komputer ke switch / hub, dapat dilakukan dengan mengecek suatu hal berikut ini, kecuali ....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Lampu indikator switch / hub"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Lampu indikator LAN card"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "IP address"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Server"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Keyboard"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                },
+                {
+                    "id": 6,
+                    "pertanyaan": "Di bawah ini adalah jenis-jenis sistem operasi, kecuali…..",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Ubuntu"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Windows XP"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Mac OS"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Cytrix"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Android"
+                        }
+                    ],
+                    "kunciJawaban": "D"
+                },
+                {
+                    "id": 7,
+                    "pertanyaan": "Topologi jaringan komputer yang menggunakan BNC (T) sebagai konektornya adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Topologi Bus"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Topologi Coaxial"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Topologi Ring"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Topologi Star"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Topologi Workstation"
+                        }
+                    ],
+                    "kunciJawaban": "A"
+                },
+                {
+                    "id": 8,
+                    "pertanyaan": "Panjang Host ID pada kelas B adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "8 bit"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "16 bit"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "24 bit"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "64 bit"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "15 bit"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 9,
+                    "pertanyaan": "Kombinasi pengkabelan straight pada jaringan komputer yang sesuai dengan standar internasional adalah....",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "White orange – orange - white green – blue - white blue - green – white brown - brown"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "White orange – orange - white green – green - white blue - blue – white brown - brown"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "White green – green - white orange – blue - white blue - orange – white brown – brown"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "White orange – orange - white green - green - white blue - blue – white brown – brown"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "White blue – orange - white green - green - white orange - blue – white brown – brown"
+                        }
+                    ],
+                    "kunciJawaban": "B"
+                },
+                {
+                    "id": 10,
+                    "pertanyaan": "Permasalahan yang mungkin terjadi pada software dalam konektivitas jaringan adalah berikut ini, kecuali…..",
+                    "opsi": [
+                        {
+                            "key": "A",
+                            "teks": "Setting konfigurasi jaringan tidak benar"
+                        },
+                        {
+                            "key": "B",
+                            "teks": "Kesalahan nama Workgroup pada komputer"
+                        },
+                        {
+                            "key": "C",
+                            "teks": "Protokol yang tidak cocok"
+                        },
+                        {
+                            "key": "D",
+                            "teks": "Network interface card (NIC) rusak/mati"
+                        },
+                        {
+                            "key": "E",
+                            "teks": "Jaringan ADSL"
+                        }
+                    ],
+                    "kunciJawaban": "E"
+                }
+            ]
         }
     ]
 }

@@ -14,6 +14,13 @@ export const images: { [key: string]: any } = {
   cpunew: require("../images/cpunew.jpg"),
   management: require("../images/management.png"),
   software: require("../images/software.jpg"),
+  pengelamatan: require("../images/pengelamatan.jpg"),
+  jaringan: require("../images/jaringan.png"),
+  permasalahan: require("../images/permasalahan.jpg"),
+  merawat: require("../images/merawat.jpg"),
+  perbaikanjaringan: require("../images/perbaikanjaringan.jpg"),
+  merawatjaringan: require("../images/merawatjaringan.jpg"),
+  masalahjaringan: require("../images/masalahjaringan.jpg"),
 
   // Tambahkan gambar lainnya di sini
 };
