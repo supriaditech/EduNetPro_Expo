@@ -65,7 +65,7 @@ export default function Soal() {
 
         // Arahkan ke halaman pembahasan dengan data pembahasan
         router.push({
-          pathname: "/pembahasan", // Ganti dengan nama file pembahasan yang benar
+          pathname: "/pembahasan",
           params: {
             pembahasanData: JSON.stringify(parsedData), // Kirim data sebagai string JSON
           },
